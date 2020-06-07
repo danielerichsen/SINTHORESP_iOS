@@ -1,0 +1,798 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Bold.otf">
+            <string>Montserrat-Bold</string>
+        </array>
+        <array key="Montserrat-Regular.otf">
+            <string>Montserrat-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Service View Controller-->
+        <scene sceneID="xKM-wJ-yQe">
+            <objects>
+                <viewController storyboardIdentifier="ServiceViewController" modalPresentationStyle="fullScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ydD-Fh-3XQ" customClass="ServiceViewController" customModule="SINTHORESP" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="AIl-3F-arb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" image="imageTopScreenService.png" id="uas-l5-JcC">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="143"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VrY-99-XbI">
+                                <rect key="frame" x="0.0" y="45" width="132" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="imageButtonBack.png"/>
+                                <connections>
+                                    <action selector="buttonBack:" destination="ydD-Fh-3XQ" eventType="touchUpInside" id="DtL-o0-qvT"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="XTf-oB-Qn0"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dIe-ml-O1s" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-4090" y="-18"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="ViewController" modalPresentationStyle="fullScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="ViewController" customModule="SINTHORESP" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="imageBackgroundSP.png" translatesAutoresizingMaskIntoConstraints="NO" id="TIf-hh-4Ui">
+                                <rect key="frame" x="-11" y="0.0" width="392" height="667"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zkd-jz-tw3">
+                                <rect key="frame" x="45" y="298" width="130" height="130"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="imageButtonService.png"/>
+                                <connections>
+                                    <action selector="showScreenService:" destination="BYZ-38-t0r" eventType="touchUpInside" id="D3c-GJ-Beu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EfU-sV-tPj">
+                                <rect key="frame" x="46" y="157" width="130" height="130"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <viewLayoutGuide key="safeArea" id="TVs-nC-ftw"/>
+                                <state key="normal" image="imageButtonSinthoresp.png"/>
+                                <connections>
+                                    <action selector="showScreenSinthoresp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BJR-PX-cOe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2iF-eX-dOb">
+                                <rect key="frame" x="45" y="438" width="130" height="130"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="imageButtonJoin.png"/>
+                                <connections>
+                                    <action selector="showScreenJoin:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ul3-E3-lJO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I0k-tE-HnX">
+                                <rect key="frame" x="201" y="438" width="130" height="130"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="imageButtonConvention.png"/>
+                                <connections>
+                                    <action selector="showScreenConvention:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ScW-1X-2Cf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DPe-k5-a8p">
+                                <rect key="frame" x="201" y="298" width="130" height="130"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="imageButtonSummerCamp.png"/>
+                                <connections>
+                                    <action selector="showScreenSummerCamp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UIs-yh-sEm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hCO-lr-H4u">
+                                <rect key="frame" x="201" y="157" width="130" height="130"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="imageButtonHeadquarters.png"/>
+                                <connections>
+                                    <action selector="showScreenHeadquarters:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3Nk-F2-k9h"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="Contato" insetsLayoutMarginsFromSafeArea="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RYn-5g-i75">
+                                <rect key="frame" x="44" y="576" width="286" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <state key="normal" image="imageButtonContact.png"/>
+                                <connections>
+                                    <action selector="showScreenContant:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xEo-Rm-0FC"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="imageLogoBranco.png" translatesAutoresizingMaskIntoConstraints="NO" id="w2v-2K-7ll">
+                                <rect key="frame" x="80" y="53" width="216" height="82"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="KTK-g8-oN4"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3266.4000000000001" y="-788.45577211394311"/>
+        </scene>
+        <!--Sinthoresp View Controller-->
+        <scene sceneID="lnj-vA-iyE">
+            <objects>
+                <viewController storyboardIdentifier="SinthorespViewController" modalPresentationStyle="fullScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="8Iw-oB-z29" customClass="SinthorespViewController" customModule="SINTHORESP" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="s0H-jr-8Gs">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" image="imagem_superior.png" id="FtO-44-WBO">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="78"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n8o-8U-RYd">
+                                <rect key="frame" x="16" y="86" width="343" height="239"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                                <string key="text">Foram muitas as conquistas do nosso Sindicato desde que foi criado em 10 de julho de 1933.
+
+O que nos torna fortes e atuantes é a efetiva participação dos companheiros. Sem isso, jamais teríamos autonomia, liberdade e os inúmeros serviços e conquistas que temos hoje.
+
+Seja bem-vindo, associado! Aqui é sua casa. Este é o Sindicato que você ajuda a construir. 
+
+A unidade nos fortalece!</string>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TÍTULO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xhC-0U-Scm">
+                                <rect key="frame" x="16" y="30" width="91" height="30"/>
+                                <fontDescription key="fontDescription" name="Montserrat-Bold" family="Montserrat" pointSize="24"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="imageBaseLine.png" translatesAutoresizingMaskIntoConstraints="NO" id="Z0t-0M-s1N">
+                                <rect key="frame" x="0.0" y="577" width="375" height="90"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Zp-7G-sZD">
+                                <rect key="frame" x="0.0" y="590" width="135" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                                <state key="normal" image="imageButtonBack.png"/>
+                                <connections>
+                                    <action selector="buttonBack:" destination="8Iw-oB-z29" eventType="touchUpInside" id="chB-ie-7T4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4zG-op-ltb">
+                                <rect key="frame" x="16" y="348" width="343" height="49"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Galvji-Bold" family="Galvji" pointSize="17"/>
+                                <state key="normal" title="button" backgroundImage="imageButtonNavegacao.png">
+                                    <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="plV-rY-nbB" kind="show" id="2w8-qF-sSt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tFX-dM-SgG">
+                                <rect key="frame" x="16" y="404" width="343" height="49"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Galvji-Bold" family="Galvji" pointSize="17"/>
+                                <state key="normal" title="button" backgroundImage="imageButtonNavegacao.png">
+                                    <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xQ7-Yn-Kcq">
+                                <rect key="frame" x="16" y="461" width="343" height="60"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Galvji-Bold" family="Galvji" pointSize="17"/>
+                                <state key="normal" title="button" backgroundImage="imageButtonNavegacao.png">
+                                    <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="n8o-8U-RYd" firstAttribute="leading" secondItem="xhC-0U-Scm" secondAttribute="leading" id="6RF-1d-Nqt"/>
+                            <constraint firstItem="gbb-wp-iYp" firstAttribute="bottom" secondItem="n8o-8U-RYd" secondAttribute="bottom" constant="342" id="6ju-OS-jzK"/>
+                            <constraint firstItem="n8o-8U-RYd" firstAttribute="centerX" secondItem="FtO-44-WBO" secondAttribute="centerX" id="8bR-bO-dgI"/>
+                            <constraint firstItem="xhC-0U-Scm" firstAttribute="top" secondItem="s0H-jr-8Gs" secondAttribute="topMargin" constant="30" id="9Lw-Hr-px0"/>
+                            <constraint firstItem="n8o-8U-RYd" firstAttribute="top" secondItem="FtO-44-WBO" secondAttribute="bottom" constant="8" id="IvG-AN-HG9"/>
+                            <constraint firstItem="xhC-0U-Scm" firstAttribute="leading" secondItem="gbb-wp-iYp" secondAttribute="leading" constant="16" id="MwB-aR-uMa"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="gbb-wp-iYp"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="BrH-q7-SUW"/>
+                    <connections>
+                        <outlet property="buttonConselhoRepresentantes" destination="xQ7-Yn-Kcq" id="E7Y-0M-onz"/>
+                        <outlet property="buttonDiretoriaExecutiva" destination="4zG-op-ltb" id="d97-2T-tbO"/>
+                        <outlet property="buttonDiretoriaSinthoresp" destination="tFX-dM-SgG" id="ALR-vV-ecs"/>
+                        <outlet property="labelTitulo" destination="xhC-0U-Scm" id="uUK-dP-ZcV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="27u-Ob-wFV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-6948" y="-19.340329835082461"/>
+        </scene>
+        <!--Headquarters View Controller-->
+        <scene sceneID="Osk-Vu-cHe">
+            <objects>
+                <viewController storyboardIdentifier="HeadquartersViewController" modalPresentationStyle="fullScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="JIA-tX-uaU" customClass="HeadquartersViewController" customModule="SINTHORESP" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BGq-jz-OYD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" image="imageTopScreenHeadquarters.png" id="m9u-9q-gvy">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="143"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wMw-MX-xBe">
+                                <rect key="frame" x="0.0" y="45" width="132" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="imageButtonBack.png"/>
+                                <connections>
+                                    <action selector="buttonBack:" destination="JIA-tX-uaU" eventType="touchUpInside" id="swO-hq-z7i"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qDz-CH-gRS">
+                                <rect key="frame" x="339" y="858" width="135" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="imageButtonBackMenu.png"/>
+                                <connections>
+                                    <action selector="showScreenMenu:" destination="plV-rY-nbB" eventType="touchUpInside" id="jb8-1b-pLr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gvY-Sd-Q1e">
+                                <rect key="frame" x="99" y="858" width="135" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="imageButtonBack.png"/>
+                                <connections>
+                                    <action selector="buttonBack:" destination="plV-rY-nbB" eventType="touchUpInside" id="KWf-Nj-DgR"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="xab-b4-TPd"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="m2D-Iz-lhx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-4876" y="-18"/>
+        </scene>
+        <!--Summer Camp View Controller-->
+        <scene sceneID="D3M-D9-6bj">
+            <objects>
+                <viewController storyboardIdentifier="SummerCampViewController" modalPresentationStyle="fullScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Wrt-07-OzD" customClass="SummerCampViewController" customModule="SINTHORESP" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bhZ-Ql-N0E">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" image="imageTopScreenSummerCamp.png" id="d9G-5K-Y45">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="143"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V40-y2-l3K">
+                                <rect key="frame" x="0.0" y="45" width="132" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="imageButtonBack.png"/>
+                                <connections>
+                                    <action selector="buttonBack:" destination="Wrt-07-OzD" eventType="touchUpInside" id="d4e-sb-yAR"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="wun-M0-u4M"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ufO-MI-otA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3265" y="-18"/>
+        </scene>
+        <!--Join View Controller-->
+        <scene sceneID="vCc-ls-Tli">
+            <objects>
+                <viewController storyboardIdentifier="JoinViewController" modalPresentationStyle="fullScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="2bQ-SO-DR0" customClass="JoinViewController" customModule="SINTHORESP" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZyA-tb-pCA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" image="imageTopScreenJoin.png" id="D8y-PN-S5C">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="143"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hKu-2j-Lat">
+                                <rect key="frame" x="0.0" y="45" width="132" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="imageButtonBack.png"/>
+                                <connections>
+                                    <action selector="buttonBack:" destination="2bQ-SO-DR0" eventType="touchUpInside" id="v1p-RT-Nf6"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="yUe-fY-1Ie"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KEs-K2-Zmb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2327" y="-18"/>
+        </scene>
+        <!--Convention View Controller-->
+        <scene sceneID="Gws-Lh-boR">
+            <objects>
+                <viewController storyboardIdentifier="ConventionViewController" modalPresentationStyle="fullScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ebj-s8-qlQ" customClass="ConventionViewController" customModule="SINTHORESP" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FNu-ig-Rqc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" image="imageTopScreenConvention.png" id="5lj-mL-069">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="143"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pZC-8H-6da">
+                                <rect key="frame" x="0.0" y="45" width="132" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="imageButtonBack.png"/>
+                                <connections>
+                                    <action selector="buttonBack:" destination="ebj-s8-qlQ" eventType="touchUpInside" id="Qby-rG-Gue"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="upU-f9-tbu"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uAZ-Xu-Wq2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1498" y="-18"/>
+        </scene>
+        <!--Contact View Controller-->
+        <scene sceneID="Gfp-Fd-J2N">
+            <objects>
+                <viewController storyboardIdentifier="ContactViewController" modalPresentationStyle="fullScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="O5o-Eu-pEr" customClass="ContactViewController" customModule="SINTHORESP" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8u8-d9-aUn">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" image="imageTopScreenContact.png" id="xeJ-1b-H0I">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="143"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2tJ-Ix-Wpb">
+                                <rect key="frame" x="0.0" y="45" width="132" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="imageButtonBack.png"/>
+                                <connections>
+                                    <action selector="buttonBack:" destination="O5o-Eu-pEr" eventType="touchUpInside" id="tSt-Ml-Ucu"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="OgN-gZ-XbQ"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Juc-qz-08B" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-663" y="-18"/>
+        </scene>
+        <!--Sinthoresp Conselho Representacao View Controller-->
+        <scene sceneID="5ef-K9-H69">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="Bzw-qR-mZP" customClass="SinthorespConselhoRepresentacaoViewController" customModule="SINTHORESP" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4T9-f8-MBh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ehR-6m-UzE">
+                                <rect key="frame" x="16" y="110" width="343" height="459"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                                <string key="text">Adalberto Jorge da Silva
+Airton Batista dos Santos
+André Ferreira da Rocha
+Angela Tiburtino
+Antonio Alexsandro Almeida e Silva
+Antonio Barbosa Pereira
+Ana Maria Koslovski
+Carlos José de Araújo
+David Pinheiro
+Edson Inácio Lima
+Everaldo de Barros
+Erionaldo Brito de Almeida
+Francisco Aparecido da Costa
+Francisco de Assis da Silva
+Francisco de Assis Paiva
+Francisco Fernandes Coutinho
+Gilberto Martins Souza
+Hélio José Zanella Martinho
+José Carlos Festi
+João Francisco Figueiredo
+José Ivan da Silva
+José Maria Ferreira
+José Oliveira
+Júlio Almeida Neto
+Lucieudo Gomes Silvano
+Maria Aparecida Gonçalves Lima
+Nelson de Souza Santos
+Otalício José Ferreira
+Pedro Francelino de Souza
+Sebastião Cláudio Rocha da Silva</string>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" image="imageTopScreenSinthorespConselhoRepresentacao.png" id="vNo-4i-8DI">
+                                <rect key="frame" x="0.0" y="-20" width="375" height="122"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" image="imageBaseLine.png" translatesAutoresizingMaskIntoConstraints="NO" id="9uZ-Sk-Tpg">
+                                <rect key="frame" x="0.0" y="577" width="375" height="90"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dQ3-MQ-kwb">
+                                <rect key="frame" x="0.0" y="590" width="135" height="45"/>
+                                <state key="normal" image="imageButtonBack.png"/>
+                                <connections>
+                                    <action selector="buttonBack:" destination="Bzw-qR-mZP" eventType="touchUpInside" id="cYw-at-bwY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DSj-Gu-H7I">
+                                <rect key="frame" x="240" y="590" width="135" height="45"/>
+                                <state key="normal" image="imageButtonBackMenu.png"/>
+                                <connections>
+                                    <action selector="showScreenMenu:" destination="Bzw-qR-mZP" eventType="touchUpInside" id="Ubd-Cx-fQC"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="dQ3-MQ-kwb" secondAttribute="bottom" constant="32" id="4nd-5A-DVj"/>
+                            <constraint firstItem="ehR-6m-UzE" firstAttribute="top" secondItem="vNo-4i-8DI" secondAttribute="bottom" constant="8" id="5W6-bP-9js"/>
+                            <constraint firstItem="DSj-Gu-H7I" firstAttribute="trailing" secondItem="Nfv-qc-Qg3" secondAttribute="trailing" id="87s-Bd-sFJ"/>
+                            <constraint firstItem="9uZ-Sk-Tpg" firstAttribute="trailing" secondItem="Nfv-qc-Qg3" secondAttribute="trailing" id="Bqn-5z-LiJ"/>
+                            <constraint firstAttribute="bottom" secondItem="DSj-Gu-H7I" secondAttribute="bottom" constant="32" id="C7v-Xa-1rl"/>
+                            <constraint firstAttribute="bottom" secondItem="9uZ-Sk-Tpg" secondAttribute="bottom" id="Cjr-xp-Mxd"/>
+                            <constraint firstItem="9uZ-Sk-Tpg" firstAttribute="top" secondItem="ehR-6m-UzE" secondAttribute="bottom" constant="8" id="Hou-ec-YQF"/>
+                            <constraint firstItem="dQ3-MQ-kwb" firstAttribute="leading" secondItem="Nfv-qc-Qg3" secondAttribute="leading" id="Z7O-6O-GsE"/>
+                            <constraint firstItem="9uZ-Sk-Tpg" firstAttribute="leading" secondItem="4T9-f8-MBh" secondAttribute="leading" id="Zq4-eh-d4b"/>
+                            <constraint firstItem="ehR-6m-UzE" firstAttribute="leading" secondItem="4T9-f8-MBh" secondAttribute="leadingMargin" id="no0-GM-VoS"/>
+                            <constraint firstItem="ehR-6m-UzE" firstAttribute="trailing" secondItem="4T9-f8-MBh" secondAttribute="trailingMargin" id="tSH-VH-unc"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Nfv-qc-Qg3"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="0rr-4Q-i9X"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5M-L2-q0w" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-6172" y="750.67466266866575"/>
+        </scene>
+        <!--Sinhoresp Diretoria Sinthoresp View Controller-->
+        <scene sceneID="zQH-S2-4bD">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="XWD-Rk-Ktv" customClass="SinhorespDiretoriaSinthorespViewController" customModule="SINTHORESP" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Lgp-Xj-Wbp">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" image="imageBaseLine.png" translatesAutoresizingMaskIntoConstraints="NO" id="vte-Cw-Tn4">
+                                <rect key="frame" x="0.0" y="577" width="375" height="90"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pbI-cU-cTB">
+                                <rect key="frame" x="0.0" y="590" width="135" height="45"/>
+                                <state key="normal" image="imageButtonBack.png"/>
+                                <connections>
+                                    <action selector="buttonBack:" destination="XWD-Rk-Ktv" eventType="touchUpInside" id="fkt-Qw-0ui"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rwt-vU-25w">
+                                <rect key="frame" x="16" y="86" width="343" height="483"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">SUPLENTES DE DIRETORIA EFETIVA:
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.50302505490000005" blue="0.5929592252" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="18" name="Montserrat-Bold"/>
+                                            <font key="NSOriginalFont" size="18" name="Montserrat-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Antonio Luiz de Souza (Jandaia)
+Francisco Erivaldo Bertoldo Mendes
+Wellington Cleber dos Santos
+Luiz Antonio do Nascimento
+Darly Alves de Abreu
+Antônio Augusto de Oliveira
+ 
+</string>
+                                        <attributes>
+                                            <color key="NSColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <font key="NSFont" size="14" name="Montserrat-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">CONSELHO FISCAL EFETIVOS:
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.50302505490000005" blue="0.5929592252" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="18" name="Montserrat-Bold"/>
+                                            <font key="NSOriginalFont" size="18" name="Montserrat-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Francisco Gregório da Silva
+Josuel Fonseca dos Santos
+Paulo Sérgio Caires da Silva
+ 
+</string>
+                                        <attributes>
+                                            <color key="NSColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <font key="NSFont" size="14" name="Montserrat-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">CONSELHO FISCAL SUPLENTE:
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.50302505490000005" blue="0.5929592252" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="18" name="Montserrat-Bold"/>
+                                            <font key="NSOriginalFont" size="18" name="Montserrat-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">José da Costa Ferreira
+Honorato Soares de Moura
+Benjamin José de Resende Monteiro
+ 
+</string>
+                                        <attributes>
+                                            <color key="NSColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <font key="NSFont" size="14" name="Montserrat-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="DELEGADOS REPRESENTANTES NO CONSELHO DE FEDERAÇÃO EFETIVOS:">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.50302505490000005" blue="0.5929592252" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="18" name="Montserrat-Bold"/>
+                                            <font key="NSOriginalFont" size="18" name="Montserrat-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">
+Cesar de Almeida Utsch
+
+</string>
+                                        <attributes>
+                                            <color key="NSColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <font key="NSFont" size="14" name="Montserrat-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="DELEGADOS REPRESENTANTES NO CONSELHO DE FEDERAÇÃO SUPLENTES:">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.50302505490000005" blue="0.5929592252" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="18" name="Montserrat-Bold"/>
+                                            <font key="NSOriginalFont" size="18" name="Montserrat-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">
+Adomário Luiz da Silva
+Aurindo Antonio de Lima
+</string>
+                                        <attributes>
+                                            <color key="NSColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <font key="NSFont" size="14" name="Montserrat-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zaf-hL-ZD7">
+                                <rect key="frame" x="240" y="590" width="135" height="45"/>
+                                <state key="normal" image="imageButtonBackMenu.png"/>
+                                <connections>
+                                    <action selector="showScreenMenu:" destination="XWD-Rk-Ktv" eventType="touchUpInside" id="T4Y-tb-iyd"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" image="imagem_superior.png" id="JgI-bp-o72">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="78"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="TÍTULO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bZD-Ci-WvK">
+                                <rect key="frame" x="16" y="30" width="91" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Montserrat-Bold" family="Montserrat" pointSize="24"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="vte-Cw-Tn4" firstAttribute="leading" secondItem="f7a-X9-A0g" secondAttribute="leading" id="98N-Ll-Pzw"/>
+                            <constraint firstItem="Zaf-hL-ZD7" firstAttribute="trailing" secondItem="Lgp-Xj-Wbp" secondAttribute="trailing" id="CGo-QA-s7E"/>
+                            <constraint firstAttribute="bottom" secondItem="Zaf-hL-ZD7" secondAttribute="bottom" constant="32" id="Dn3-iv-7QA"/>
+                            <constraint firstItem="vte-Cw-Tn4" firstAttribute="bottom" secondItem="Lgp-Xj-Wbp" secondAttribute="bottom" id="E4s-Mp-kp1"/>
+                            <constraint firstItem="pbI-cU-cTB" firstAttribute="leading" secondItem="Lgp-Xj-Wbp" secondAttribute="leading" id="hHI-w8-zwy"/>
+                            <constraint firstAttribute="bottom" secondItem="pbI-cU-cTB" secondAttribute="bottom" constant="32" id="hWf-DQ-bDb"/>
+                            <constraint firstItem="vte-Cw-Tn4" firstAttribute="trailing" secondItem="f7a-X9-A0g" secondAttribute="trailing" id="tgB-lp-d9k"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="f7a-X9-A0g"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="iqk-Dw-dY6"/>
+                    <connections>
+                        <outlet property="labelTituloDiretoriaSinthoresp" destination="bZD-Ci-WvK" id="3SP-VD-ZUB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="taQ-hY-UMv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-6951.1999999999998" y="749.7751124437782"/>
+        </scene>
+        <!--Shintoresp Diretoria Executiva View Controller-->
+        <scene sceneID="GBP-4B-0Nf">
+            <objects>
+                <viewController modalTransitionStyle="crossDissolve" modalPresentationStyle="fullScreen" id="plV-rY-nbB" customClass="ShintorespDiretoriaExecutivaViewController" customModule="SINTHORESP" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RSd-6R-cCO">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1236"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" image="imagem_superior.png" id="tiZ-Tr-kix">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="145"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TÍTULO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7dC-1o-7Jg">
+                                <rect key="frame" x="16" y="30" width="91" height="30"/>
+                                <fontDescription key="fontDescription" name="Montserrat-Bold" family="Montserrat" pointSize="24"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" image="imageBaseLine.png" translatesAutoresizingMaskIntoConstraints="NO" id="hIZ-3U-6O7">
+                                <rect key="frame" x="0.0" y="1146" width="375" height="90"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A7E-Rt-vAq">
+                                <rect key="frame" x="0.0" y="1159" width="135" height="45"/>
+                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                                <state key="normal" image="imageButtonBack.png"/>
+                                <connections>
+                                    <action selector="buttonBack:" destination="plV-rY-nbB" eventType="touchUpInside" id="iXR-qO-JMW"/>
+                                </connections>
+                            </button>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KOS-q9-0J8">
+                                <rect key="frame" x="0.0" y="153" width="375" height="952"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aCC-JX-JCh">
+                                        <rect key="frame" x="8" y="0.0" width="359" height="945"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="imageDiretoriaExecutivaFrancisco.png" translatesAutoresizingMaskIntoConstraints="NO" id="Aef-vG-A9w">
+                                                <rect key="frame" x="8" y="0.0" width="168" height="224"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="imageDiretoriaExecutivaGilberto.png" translatesAutoresizingMaskIntoConstraints="NO" id="f2H-Ru-4BN">
+                                                <rect key="frame" x="183" y="0.0" width="168" height="224"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="imageDiretoriaExecutivaRubens.png" translatesAutoresizingMaskIntoConstraints="NO" id="l4O-Vg-1jH">
+                                                <rect key="frame" x="8" y="232" width="168" height="224"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="imageDiretoriaExecutivaManoel.png" translatesAutoresizingMaskIntoConstraints="NO" id="8GW-lW-8po">
+                                                <rect key="frame" x="183" y="232" width="168" height="224"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="imageDiretoriaExecutivaValdir.png" translatesAutoresizingMaskIntoConstraints="NO" id="8Y0-0e-8nD">
+                                                <rect key="frame" x="8" y="464" width="168" height="224"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="imageDiretoriaExecutivaJoao.png" translatesAutoresizingMaskIntoConstraints="NO" id="v3I-LU-3lM">
+                                                <rect key="frame" x="183" y="464" width="168" height="224"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="imageDiretoriaExecutivaEdimundo.png" translatesAutoresizingMaskIntoConstraints="NO" id="ppx-mz-jfH">
+                                                <rect key="frame" x="8" y="696" width="168" height="224"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="945" id="g7i-ia-uyJ"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="aCC-JX-JCh" secondAttribute="trailing" constant="8" id="5JN-Rl-9Vr"/>
+                                    <constraint firstItem="aCC-JX-JCh" firstAttribute="bottom" secondItem="KOS-q9-0J8" secondAttribute="bottom" id="BUF-ZA-Sct"/>
+                                    <constraint firstItem="aCC-JX-JCh" firstAttribute="top" secondItem="KOS-q9-0J8" secondAttribute="top" id="FjU-Xu-goX"/>
+                                    <constraint firstItem="aCC-JX-JCh" firstAttribute="leading" secondItem="KOS-q9-0J8" secondAttribute="leading" constant="8" id="a2s-tu-ilG"/>
+                                    <constraint firstItem="aCC-JX-JCh" firstAttribute="centerX" secondItem="KOS-q9-0J8" secondAttribute="centerX" id="tgg-cc-jbr"/>
+                                </constraints>
+                            </scrollView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZIA-aI-b1A">
+                                <rect key="frame" x="240" y="1159" width="135" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                                <state key="normal" image="imageButtonBackMenu.png"/>
+                                <connections>
+                                    <action selector="showScreenMenu:" destination="plV-rY-nbB" eventType="touchUpInside" id="bCo-ZN-Jgf"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="KOS-q9-0J8" firstAttribute="leading" secondItem="tiZ-Tr-kix" secondAttribute="leading" id="2g2-RJ-oSR"/>
+                            <constraint firstItem="7dC-1o-7Jg" firstAttribute="top" secondItem="o9M-RA-I4D" secondAttribute="top" constant="30" id="9m3-9C-UrT"/>
+                            <constraint firstItem="KOS-q9-0J8" firstAttribute="leading" secondItem="hIZ-3U-6O7" secondAttribute="leading" id="Fnr-e2-qGq"/>
+                            <constraint firstItem="KOS-q9-0J8" firstAttribute="trailing" secondItem="o9M-RA-I4D" secondAttribute="trailing" id="MwF-ag-TZB"/>
+                            <constraint firstItem="o9M-RA-I4D" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="7dC-1o-7Jg" secondAttribute="trailing" symbolic="YES" id="Pen-WR-yl9"/>
+                            <constraint firstItem="hIZ-3U-6O7" firstAttribute="top" secondItem="KOS-q9-0J8" secondAttribute="bottom" constant="41" id="ULw-dH-Yx6"/>
+                            <constraint firstItem="KOS-q9-0J8" firstAttribute="leading" secondItem="A7E-Rt-vAq" secondAttribute="leading" id="Ulg-et-XbS"/>
+                            <constraint firstItem="KOS-q9-0J8" firstAttribute="leading" secondItem="o9M-RA-I4D" secondAttribute="leading" id="WdR-Hk-rYB"/>
+                            <constraint firstItem="7dC-1o-7Jg" firstAttribute="leading" secondItem="o9M-RA-I4D" secondAttribute="leading" constant="16" id="ZHU-E9-4uI"/>
+                            <constraint firstItem="KOS-q9-0J8" firstAttribute="trailing" secondItem="hIZ-3U-6O7" secondAttribute="trailing" id="abC-ig-Agy"/>
+                            <constraint firstItem="A7E-Rt-vAq" firstAttribute="top" secondItem="KOS-q9-0J8" secondAttribute="bottom" constant="54" id="bZH-EE-zBL"/>
+                            <constraint firstAttribute="bottom" secondItem="KOS-q9-0J8" secondAttribute="bottom" constant="131" id="nnM-o6-fzQ"/>
+                            <constraint firstItem="KOS-q9-0J8" firstAttribute="top" secondItem="tiZ-Tr-kix" secondAttribute="bottom" constant="8" id="nui-YB-Du8"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="o9M-RA-I4D"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="cFU-NO-1aV"/>
+                    <size key="freeformSize" width="375" height="1236"/>
+                    <connections>
+                        <outlet property="labelTituloDiretoriaExecutiva" destination="7dC-1o-7Jg" id="2H1-U8-On3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ohi-DQ-qJp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-7706.3999999999996" y="961.16941529235385"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="imageBackgroundSP.png" width="504" height="896"/>
+        <image name="imageBaseLine.png" width="375" height="90"/>
+        <image name="imageButtonBack.png" width="135" height="45"/>
+        <image name="imageButtonBackMenu.png" width="135" height="45"/>
+        <image name="imageButtonContact.png" width="344" height="56"/>
+        <image name="imageButtonConvention.png" width="165" height="165"/>
+        <image name="imageButtonHeadquarters.png" width="165" height="165"/>
+        <image name="imageButtonJoin.png" width="165" height="165"/>
+        <image name="imageButtonNavegacao.png" width="343" height="49"/>
+        <image name="imageButtonService.png" width="165" height="165"/>
+        <image name="imageButtonSinthoresp.png" width="165" height="165"/>
+        <image name="imageButtonSummerCamp.png" width="165" height="165"/>
+        <image name="imageDiretoriaExecutivaEdimundo.png" width="168" height="224"/>
+        <image name="imageDiretoriaExecutivaFrancisco.png" width="168" height="224"/>
+        <image name="imageDiretoriaExecutivaGilberto.png" width="168" height="224"/>
+        <image name="imageDiretoriaExecutivaJoao.png" width="168" height="224"/>
+        <image name="imageDiretoriaExecutivaManoel.png" width="168" height="224"/>
+        <image name="imageDiretoriaExecutivaRubens.png" width="168" height="224"/>
+        <image name="imageDiretoriaExecutivaValdir.png" width="168" height="224"/>
+        <image name="imageLogoBranco.png" width="200.5" height="84"/>
+        <image name="imageTopScreenContact.png" width="375" height="125"/>
+        <image name="imageTopScreenConvention.png" width="375" height="125"/>
+        <image name="imageTopScreenHeadquarters.png" width="375" height="125"/>
+        <image name="imageTopScreenJoin.png" width="375" height="125"/>
+        <image name="imageTopScreenService.png" width="375" height="125"/>
+        <image name="imageTopScreenSinthorespConselhoRepresentacao.png" width="375" height="120"/>
+        <image name="imageTopScreenSummerCamp.png" width="375" height="125"/>
+        <image name="imagem_superior.png" width="375" height="78"/>
+    </resources>
+</document>
