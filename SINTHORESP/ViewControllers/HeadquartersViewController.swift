@@ -10,8 +10,12 @@ import UIKit
 
 class HeadquartersViewController: UIViewController {
 
+    @IBOutlet weak var labelTituloUnidades: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        labelTituloUnidades.text = "UNIDADES"
 
         // Do any additional setup after loading the view.
     }

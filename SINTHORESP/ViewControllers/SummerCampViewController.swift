@@ -10,10 +10,13 @@ import UIKit
 
 class SummerCampViewController: UIViewController {
 
+    @IBOutlet weak var labelTituloColonia: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        labelTituloColonia.text = "COLÔNIA"
 
-        // Do any additional setup after loading the view.
     }
     
 

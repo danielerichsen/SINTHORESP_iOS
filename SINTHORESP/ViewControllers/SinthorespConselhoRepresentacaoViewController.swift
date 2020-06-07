@@ -10,10 +10,12 @@ import UIKit
 
 class SinthorespConselhoRepresentacaoViewController: UIViewController {
 
+    @IBOutlet weak var labelTituloConselho: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        labelTituloConselho.text = "CONSELHO DE REPRESENTANTES\nDE DELEGADOS DE BASE"
     }
     
 

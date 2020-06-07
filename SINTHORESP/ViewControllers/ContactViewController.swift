@@ -9,11 +9,14 @@
 import UIKit
 
 class ContactViewController: UIViewController {
-
+    
+    @IBOutlet weak var labelTituloContato: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        labelTituloContato.text = "CONTATO"
 
-        // Do any additional setup after loading the view.
     }
     
 

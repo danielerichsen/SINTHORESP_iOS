@@ -10,10 +10,12 @@ import UIKit
 
 class ConventionViewController: UIViewController {
 
+    @IBOutlet weak var labelTituloConvencao: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        labelTituloConvencao.text = "CONVENÇÃO"
     }
     
 

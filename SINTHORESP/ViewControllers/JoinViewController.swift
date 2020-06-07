@@ -10,10 +10,12 @@ import UIKit
 
 class JoinViewController: UIViewController {
 
+    @IBOutlet weak var labelTituloAssocie: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        labelTituloAssocie.text = "ASSOCIE-SE"
     }
     
 

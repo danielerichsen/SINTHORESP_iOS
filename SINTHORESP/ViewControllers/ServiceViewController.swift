@@ -10,8 +10,12 @@ import UIKit
 
 class ServiceViewController: UIViewController {
 
+    @IBOutlet weak var labelTituloServicos: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        labelTituloServicos.text = "SERVIÇOS"
 
         // Do any additional setup after loading the view.
     }
