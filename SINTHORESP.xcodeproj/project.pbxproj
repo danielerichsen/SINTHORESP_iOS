@@ -111,6 +111,11 @@
 		EB8D846C245515740027133F /* imageBackgroundSP.png in Resources */ = {isa = PBXBuildFile; fileRef = EB8D8469245515740027133F /* imageBackgroundSP.png */; };
 		EB8D846D245515740027133F /* imageBackgroundSP@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB8D846A245515740027133F /* imageBackgroundSP@2x.png */; };
 		EB8D846E245515740027133F /* imageBackgroundSP@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB8D846B245515740027133F /* imageBackgroundSP@3x.png */; };
+		EBA5DD28248D96A900D60DC4 /* DataBaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA5DD27248D96A900D60DC4 /* DataBaseController.swift */; };
+		EBA5DD2B248D9C5800D60DC4 /* SINTHORESP.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EBA5DD29248D9C5800D60DC4 /* SINTHORESP.xcdatamodeld */; };
+		EBA5DD2E248D9FFC00D60DC4 /* CellDadosButtonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA5DD2C248D9FFC00D60DC4 /* CellDadosButtonTableViewCell.swift */; };
+		EBA5DD2F248D9FFC00D60DC4 /* CellDadosButtonTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBA5DD2D248D9FFC00D60DC4 /* CellDadosButtonTableViewCell.xib */; };
+		EBA5DD33248DDA2000D60DC4 /* SummerCampDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA5DD32248DDA2000D60DC4 /* SummerCampDetailViewController.swift */; };
 		EBAEA08324573A1A00BA7F4D /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAEA08224573A1A00BA7F4D /* ContactViewController.swift */; };
 		EBAEA08724573A9D00BA7F4D /* imageTopScreenContact.png in Resources */ = {isa = PBXBuildFile; fileRef = EBAEA08424573A9D00BA7F4D /* imageTopScreenContact.png */; };
 		EBAEA08824573A9D00BA7F4D /* imageTopScreenContact@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBAEA08524573A9D00BA7F4D /* imageTopScreenContact@2x.png */; };
@@ -129,6 +134,15 @@
 		EBE76D822454DD3800984CD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBE76D802454DD3800984CD8 /* LaunchScreen.storyboard */; };
 		EBE76D8D2454DD3800984CD8 /* SINTHORESPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE76D8C2454DD3800984CD8 /* SINTHORESPTests.swift */; };
 		EBE76D982454DD3800984CD8 /* SINTHORESPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE76D972454DD3800984CD8 /* SINTHORESPUITests.swift */; };
+		EBFBB5B0248ED5B000F85384 /* image_colonia_caraguatatuba@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBFBB5AA248ED5AE00F85384 /* image_colonia_caraguatatuba@3x.png */; };
+		EBFBB5B1248ED5B000F85384 /* image_colonia_caraguatatuba.png in Resources */ = {isa = PBXBuildFile; fileRef = EBFBB5AB248ED5AE00F85384 /* image_colonia_caraguatatuba.png */; };
+		EBFBB5B2248ED5B000F85384 /* image_colonia_caraguatatuba@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBFBB5AC248ED5AF00F85384 /* image_colonia_caraguatatuba@2x.png */; };
+		EBFBB5B3248ED5B000F85384 /* image_colonia_peruibe_oasis.png in Resources */ = {isa = PBXBuildFile; fileRef = EBFBB5AD248ED5AF00F85384 /* image_colonia_peruibe_oasis.png */; };
+		EBFBB5B4248ED5B000F85384 /* image_colonia_peruibe_oasis@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBFBB5AE248ED5AF00F85384 /* image_colonia_peruibe_oasis@2x.png */; };
+		EBFBB5B5248ED5B000F85384 /* image_colonia_peruibe_oasis@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBFBB5AF248ED5B000F85384 /* image_colonia_peruibe_oasis@3x.png */; };
+		EBFBB5B9248EF2DC00F85384 /* imageButtonNavegacaoCor.png in Resources */ = {isa = PBXBuildFile; fileRef = EBFBB5B6248EF2DB00F85384 /* imageButtonNavegacaoCor.png */; };
+		EBFBB5BA248EF2DC00F85384 /* imageButtonNavegacaoCor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBFBB5B7248EF2DB00F85384 /* imageButtonNavegacaoCor@2x.png */; };
+		EBFBB5BB248EF2DC00F85384 /* imageButtonNavegacaoCor@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBFBB5B8248EF2DC00F85384 /* imageButtonNavegacaoCor@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -287,6 +301,11 @@
 		EB8D8469245515740027133F /* imageBackgroundSP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imageBackgroundSP.png; sourceTree = "<group>"; };
 		EB8D846A245515740027133F /* imageBackgroundSP@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imageBackgroundSP@2x.png"; sourceTree = "<group>"; };
 		EB8D846B245515740027133F /* imageBackgroundSP@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imageBackgroundSP@3x.png"; sourceTree = "<group>"; };
+		EBA5DD27248D96A900D60DC4 /* DataBaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBaseController.swift; sourceTree = "<group>"; };
+		EBA5DD2A248D9C5800D60DC4 /* SINTHORESP.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SINTHORESP.xcdatamodel; sourceTree = "<group>"; };
+		EBA5DD2C248D9FFC00D60DC4 /* CellDadosButtonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellDadosButtonTableViewCell.swift; sourceTree = "<group>"; };
+		EBA5DD2D248D9FFC00D60DC4 /* CellDadosButtonTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellDadosButtonTableViewCell.xib; sourceTree = "<group>"; };
+		EBA5DD32248DDA2000D60DC4 /* SummerCampDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummerCampDetailViewController.swift; sourceTree = "<group>"; };
 		EBAEA08224573A1A00BA7F4D /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
 		EBAEA08424573A9D00BA7F4D /* imageTopScreenContact.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imageTopScreenContact.png; sourceTree = "<group>"; };
 		EBAEA08524573A9D00BA7F4D /* imageTopScreenContact@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imageTopScreenContact@2x.png"; sourceTree = "<group>"; };
@@ -311,6 +330,15 @@
 		EBE76D932454DD3800984CD8 /* SINTHORESPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SINTHORESPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBE76D972454DD3800984CD8 /* SINTHORESPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SINTHORESPUITests.swift; sourceTree = "<group>"; };
 		EBE76D992454DD3800984CD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBFBB5AA248ED5AE00F85384 /* image_colonia_caraguatatuba@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image_colonia_caraguatatuba@3x.png"; sourceTree = "<group>"; };
+		EBFBB5AB248ED5AE00F85384 /* image_colonia_caraguatatuba.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_colonia_caraguatatuba.png; sourceTree = "<group>"; };
+		EBFBB5AC248ED5AF00F85384 /* image_colonia_caraguatatuba@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image_colonia_caraguatatuba@2x.png"; sourceTree = "<group>"; };
+		EBFBB5AD248ED5AF00F85384 /* image_colonia_peruibe_oasis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_colonia_peruibe_oasis.png; sourceTree = "<group>"; };
+		EBFBB5AE248ED5AF00F85384 /* image_colonia_peruibe_oasis@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image_colonia_peruibe_oasis@2x.png"; sourceTree = "<group>"; };
+		EBFBB5AF248ED5B000F85384 /* image_colonia_peruibe_oasis@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image_colonia_peruibe_oasis@3x.png"; sourceTree = "<group>"; };
+		EBFBB5B6248EF2DB00F85384 /* imageButtonNavegacaoCor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imageButtonNavegacaoCor.png; sourceTree = "<group>"; };
+		EBFBB5B7248EF2DB00F85384 /* imageButtonNavegacaoCor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imageButtonNavegacaoCor@2x.png"; sourceTree = "<group>"; };
+		EBFBB5B8248EF2DC00F85384 /* imageButtonNavegacaoCor@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imageButtonNavegacaoCor@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -429,6 +457,7 @@
 				EB53573B245F640700D133C5 /* ShintorespDiretoriaExecutivaViewController.swift */,
 				EB242BC32455289E00A4F49D /* SinthorespViewController.swift */,
 				EB026A16245735B6009A784E /* SummerCampViewController.swift */,
+				EBA5DD32248DDA2000D60DC4 /* SummerCampDetailViewController.swift */,
 				EBE76D792454DD3200984CD8 /* ViewController.swift */,
 				EB53573D245F649D00D133C5 /* SinhorespDiretoriaSinthorespViewController.swift */,
 				EB53573F245F64BC00D133C5 /* SinthorespConselhoRepresentacaoViewController.swift */,
@@ -539,6 +568,10 @@
 				EBE76D7E2454DD3800984CD8 /* Assets.xcassets */,
 				EBE76D802454DD3800984CD8 /* LaunchScreen.storyboard */,
 				EBE76D832454DD3800984CD8 /* Info.plist */,
+				EBA5DD27248D96A900D60DC4 /* DataBaseController.swift */,
+				EBA5DD29248D9C5800D60DC4 /* SINTHORESP.xcdatamodeld */,
+				EBA5DD2C248D9FFC00D60DC4 /* CellDadosButtonTableViewCell.swift */,
+				EBA5DD2D248D9FFC00D60DC4 /* CellDadosButtonTableViewCell.xib */,
 			);
 			path = SINTHORESP;
 			sourceTree = "<group>";
@@ -564,6 +597,10 @@
 		EBE76DA52454EE6E00984CD8 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				EBFBB5B6248EF2DB00F85384 /* imageButtonNavegacaoCor.png */,
+				EBFBB5B7248EF2DB00F85384 /* imageButtonNavegacaoCor@2x.png */,
+				EBFBB5B8248EF2DC00F85384 /* imageButtonNavegacaoCor@3x.png */,
+				EBFBB5A9248ED59900F85384 /* colonias */,
 				EBD23366248AA1F800376BAE /* imageButtonNavegacao.png */,
 				EBD23365248AA1F800376BAE /* imageButtonNavegacao@2x.png */,
 				EBD23364248AA1F800376BAE /* imageButtonNavegacao@3x.png */,
@@ -584,6 +621,19 @@
 				EB8D846324550A2B0027133F /* imageLogoBranco@3x.png */,
 			);
 			path = Images;
+			sourceTree = "<group>";
+		};
+		EBFBB5A9248ED59900F85384 /* colonias */ = {
+			isa = PBXGroup;
+			children = (
+				EBFBB5AB248ED5AE00F85384 /* image_colonia_caraguatatuba.png */,
+				EBFBB5AC248ED5AF00F85384 /* image_colonia_caraguatatuba@2x.png */,
+				EBFBB5AA248ED5AE00F85384 /* image_colonia_caraguatatuba@3x.png */,
+				EBFBB5AD248ED5AF00F85384 /* image_colonia_peruibe_oasis.png */,
+				EBFBB5AE248ED5AF00F85384 /* image_colonia_peruibe_oasis@2x.png */,
+				EBFBB5AF248ED5B000F85384 /* image_colonia_peruibe_oasis@3x.png */,
+			);
+			path = colonias;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -698,9 +748,11 @@
 				EB242BEC2455389D00A4F49D /* imageButtonConvention@3x.png in Resources */,
 				EB61A8E524639FFA0097575F /* imageBaseLine.png in Resources */,
 				EB242BF924553D1500A4F49D /* imageTopScreenSinthoresp@3x.png in Resources */,
+				EBFBB5B5248ED5B000F85384 /* image_colonia_peruibe_oasis@3x.png in Resources */,
 				EB026A0524573517009A784E /* imageTopScreenConvention.png in Resources */,
 				EB242BC824552F3E00A4F49D /* imageButtonSinthoresp@3x.png in Resources */,
 				EBD23361248A8D0900376BAE /* imagem_superior.png in Resources */,
+				EBFBB5B2248ED5B000F85384 /* image_colonia_caraguatatuba@2x.png in Resources */,
 				EB026A0E24573517009A784E /* imageTopScreenSummerCamp@2x.png in Resources */,
 				EB242BF324553A2B00A4F49D /* imageButtonContact@2x.png in Resources */,
 				EB1E8C9D245FAE2D00CAF81E /* imageTopScreenSinthorespConselhoRepresentacao@2x.png in Resources */,
@@ -723,6 +775,7 @@
 				EB242BCE2455326700A4F49D /* imageButtonHeadquarters@3x.png in Resources */,
 				EB37AE2424633114007C1CAB /* imageDiretoriaExecutivaFrancisco@3x.png in Resources */,
 				EB37CF092463DCD100168660 /* imageButtonScreenSinthorespDiretoriaExecutiva@3x.png in Resources */,
+				EBFBB5BA248EF2DC00F85384 /* imageButtonNavegacaoCor@2x.png in Resources */,
 				EB242BE52455389D00A4F49D /* imageButtonSummerCamp.png in Resources */,
 				EB242BD02455326700A4F49D /* imageButtonHeadquarters@2x.png in Resources */,
 				EB37AE2124633114007C1CAB /* imageDiretoriaExecutivaGilberto@3x.png in Resources */,
@@ -740,12 +793,14 @@
 				EB37CF042463DCD100168660 /* imageButtonScreenSinthorespConselhoRepresentacao@3x.png in Resources */,
 				EB37AE1324633114007C1CAB /* imageDiretoriaExecutivaGilberto.png in Resources */,
 				EBD23369248AA1F800376BAE /* imageButtonNavegacao.png in Resources */,
+				EBFBB5B0248ED5B000F85384 /* image_colonia_caraguatatuba@3x.png in Resources */,
 				EBE76D7F2454DD3800984CD8 /* Assets.xcassets in Resources */,
 				EB37AE1E24633114007C1CAB /* imageDiretoriaExecutivaRubens.png in Resources */,
 				EB8D846D245515740027133F /* imageBackgroundSP@2x.png in Resources */,
 				EBE76D7D2454DD3200984CD8 /* Main.storyboard in Resources */,
 				EB242BEB2455389D00A4F49D /* imageButtonConvention@2x.png in Resources */,
 				EB026A0A24573517009A784E /* imageTopScreenSummerCamp@3x.png in Resources */,
+				EBFBB5B1248ED5B000F85384 /* image_colonia_caraguatatuba.png in Resources */,
 				EB242BC924552F3E00A4F49D /* imageButtonSinthoresp@2x.png in Resources */,
 				EB242BCF2455326700A4F49D /* imageButtonHeadquarters.png in Resources */,
 				EB242BFA24553D1500A4F49D /* imageTopScreenSinthoresp.png in Resources */,
@@ -753,6 +808,7 @@
 				EB37AE2224633114007C1CAB /* imageDiretoriaExecutivaEdimundo.png in Resources */,
 				EB37AE1724633114007C1CAB /* imageDiretoriaExecutivaValdir@3x.png in Resources */,
 				EB026A0624573517009A784E /* imageTopScreenSummerCamp.png in Resources */,
+				EBFBB5B3248ED5B000F85384 /* image_colonia_peruibe_oasis.png in Resources */,
 				EBD23362248A8D0900376BAE /* imagem_superior@3x.png in Resources */,
 				EB026A0224573517009A784E /* imageTopScreenJoin@3x.png in Resources */,
 				EB61A8E324639FFA0097575F /* imageBaseLine@3x.png in Resources */,
@@ -760,6 +816,8 @@
 				EB37AE1824633114007C1CAB /* imageDiretoriaExecutivaValdir@2x.png in Resources */,
 				EB37AE1924633114007C1CAB /* imageDiretoriaExecutivaGilberto@2x.png in Resources */,
 				EB026A0C24573517009A784E /* imageTopScreenHeadquarters.png in Resources */,
+				EBA5DD2F248D9FFC00D60DC4 /* CellDadosButtonTableViewCell.xib in Resources */,
+				EBFBB5B4248ED5B000F85384 /* image_colonia_peruibe_oasis@2x.png in Resources */,
 				EB8D846C245515740027133F /* imageBackgroundSP.png in Resources */,
 				EB37CF022463DCD100168660 /* imageButtonScreenSinthorespConselhoRepresentacao@2x.png in Resources */,
 				EB026A0924573517009A784E /* imageTopScreenService@3x.png in Resources */,
@@ -772,6 +830,7 @@
 				EB37AE1224633114007C1CAB /* imageDiretoriaExecutivaEdimundo@3x.png in Resources */,
 				EB37AE2524633114007C1CAB /* imageDiretoriaExecutivaFrancisco.png in Resources */,
 				EB8D846724550A2B0027133F /* imageLogoBranco.png in Resources */,
+				EBFBB5BB248EF2DC00F85384 /* imageButtonNavegacaoCor@3x.png in Resources */,
 				EB37AE1C24633114007C1CAB /* imageDiretoriaExecutivaManoel@2x.png in Resources */,
 				EB242BED2455389D00A4F49D /* imageButtonService.png in Resources */,
 				EB242BCA24552F3E00A4F49D /* imageButtonSinthoresp.png in Resources */,
@@ -787,6 +846,7 @@
 				EB1E8C9F245FAE2D00CAF81E /* imageTopScreenSinthorespDiretoriaSinthoresp.png in Resources */,
 				EB37AE2024633114007C1CAB /* imageDiretoriaExecutivaJoao.png in Resources */,
 				EB37AE1B24633114007C1CAB /* imageDiretoriaExecutivaRubens@2x.png in Resources */,
+				EBFBB5B9248EF2DC00F85384 /* imageButtonNavegacaoCor.png in Resources */,
 				EBD23368248AA1F800376BAE /* imageButtonNavegacao@2x.png in Resources */,
 				EB242BFE24555A2B00A4F49D /* imageButtonBack@2x.png in Resources */,
 				EBAEA08824573A9D00BA7F4D /* imageTopScreenContact@2x.png in Resources */,
@@ -823,7 +883,9 @@
 			files = (
 				EBE76D7A2454DD3200984CD8 /* ViewController.swift in Sources */,
 				EBE76D762454DD3200984CD8 /* AppDelegate.swift in Sources */,
+				EBA5DD33248DDA2000D60DC4 /* SummerCampDetailViewController.swift in Sources */,
 				EB026A19245735C8009A784E /* JoinViewController.swift in Sources */,
+				EBA5DD2E248D9FFC00D60DC4 /* CellDadosButtonTableViewCell.swift in Sources */,
 				EB53573E245F649D00D133C5 /* SinhorespDiretoriaSinthorespViewController.swift in Sources */,
 				EB026A15245735A0009A784E /* ServiceViewController.swift in Sources */,
 				EBE76D782454DD3200984CD8 /* SceneDelegate.swift in Sources */,
@@ -833,6 +895,8 @@
 				EB242BC42455289E00A4F49D /* SinthorespViewController.swift in Sources */,
 				EB535740245F64BC00D133C5 /* SinthorespConselhoRepresentacaoViewController.swift in Sources */,
 				EBAEA08324573A1A00BA7F4D /* ContactViewController.swift in Sources */,
+				EBA5DD2B248D9C5800D60DC4 /* SINTHORESP.xcdatamodeld in Sources */,
+				EBA5DD28248D96A900D60DC4 /* DataBaseController.swift in Sources */,
 				EB53573C245F640700D133C5 /* ShintorespDiretoriaExecutivaViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1174,6 +1238,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EBA5DD29248D9C5800D60DC4 /* SINTHORESP.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EBA5DD2A248D9C5800D60DC4 /* SINTHORESP.xcdatamodel */,
+			);
+			currentVersion = EBA5DD2A248D9C5800D60DC4 /* SINTHORESP.xcdatamodel */;
+			path = SINTHORESP.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = EBE76D6A2454DD3200984CD8 /* Project object */;
 }
