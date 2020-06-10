@@ -20,7 +20,7 @@ class SummerCampViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        labelTituloColonia.text = "COLÔNIA"
+        labelTituloColonia.text = "COLÔNIAS"
         
         let screenSize: CGRect = UIScreen.main.bounds
         let screenHeight = screenSize.height
@@ -111,7 +111,7 @@ class SummerCampViewController: UIViewController {
         }
         
         
-        // >>>> TERCEIRO BOTÃO <<<<
+        // >>>> QUARTO BOTÃO <<<<
         let buttonArpoador = UIButton(type: UIButton.ButtonType.custom)
         buttonArpoador.setBackgroundImage(imageBackgroundButton, for: .normal)
         buttonArpoador.setTitle("PERUÍBE ARPOADOR", for: .normal)
@@ -139,7 +139,7 @@ class SummerCampViewController: UIViewController {
         }
         
         
-        // >>>> QUARTO BOTÃO <<<<
+        // >>>> QUINTO BOTÃO <<<<
         let buttonPraiaGrande = UIButton(type: UIButton.ButtonType.custom)
         buttonPraiaGrande.setBackgroundImage(imageBackgroundButton, for: .normal)
         buttonPraiaGrande.setTitle("PRAIA GRANDE", for: .normal)
@@ -204,7 +204,7 @@ class SummerCampViewController: UIViewController {
         if (setColonia == "Caraguatatuba") {
             summerCampDetails.tituloColonia = "CARAGUATATUBA"
             summerCampDetails.textoColoniaSegue = "A Colônia de Férias de Caraguatatuba proporciona o que há de melhor em acomodação e lazer por um preço imbatível.Uma das mais belas praias do litoral norte, Caraguatatuba contempla seus visitantes com uma paisagem ímpar, onde o azul do mar se mistura com o azul do céu, num verdadeiro espetáculo da natureza."
-            summerCampDetails.textoLazerSegue = "A estrutura para lazer da Colônia de Caraguatatuba é, sem dúvida, um dos seus maiores atrativos. Você e sua família poderão desfrutar das seguintes opções:\nTrês Piscinas (média, pequena e grande);\nQuadra Poliesportiva;\nChurrasqueira;\nSalão de Jogos;\nSaunas (seca e úmida) com sala de repouso.\n\nAlém disso, no fim da tarde, você poderá relaxar jogando cartas em nossa Sala de Carteado ou tomando sucos e drinks em nosso American Bar."
+            summerCampDetails.textoLazerSegue = "A estrutura para lazer da Colônia de Caraguatatuba é, sem dúvida, um dos seus maiores atrativos. Você e sua família poderão desfrutar das seguintes opções:\n• Três Piscinas (média, pequena e grande);\n• Quadra Poliesportiva;\n• Churrasqueira;\n• Salão de Jogos;\n• Saunas (seca e úmida) com sala de repouso.\n\nAlém disso, no fim da tarde, você poderá relaxar jogando cartas em nossa Sala de Carteado ou tomando sucos e drinks em nosso American Bar."
             summerCampDetails.textoAcomodacoesSegue = "Dispomos de 32 apartamentos com banheiro privativo, área de serviço, ar condicionado e televisão.Se você pensa em comemorar sua lua de mel na colônia, nós temos o apartamento de núpcias com banheiro privativo, área de serviço, televisão, ar condicionado, frigobar e decoração diferenciada, além de uma cesta de frutas e champanhe, cobrados à parte (opcional). Energia Elétrica: as tomadas são de 110 e 220 volts"
             summerCampDetails.nameImageColoniaSegue = "image_colonia_caraguatatuba.png"
             

@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB00C596249170A10058332E /* imageButtonServiceAtivo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB00C593249170A10058332E /* imageButtonServiceAtivo@2x.png */; };
+		EB00C597249170A10058332E /* imageButtonServiceAtivo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB00C594249170A10058332E /* imageButtonServiceAtivo@3x.png */; };
+		EB00C598249170A10058332E /* imageButtonServiceAtivo.png in Resources */ = {isa = PBXBuildFile; fileRef = EB00C595249170A10058332E /* imageButtonServiceAtivo.png */; };
+		EB00C59C249171BC0058332E /* imageButtonConvenios@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB00C599249171BC0058332E /* imageButtonConvenios@2x.png */; };
+		EB00C59D249171BC0058332E /* imageButtonConvenios.png in Resources */ = {isa = PBXBuildFile; fileRef = EB00C59A249171BC0058332E /* imageButtonConvenios.png */; };
+		EB00C59E249171BC0058332E /* imageButtonConvenios@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB00C59B249171BC0058332E /* imageButtonConvenios@3x.png */; };
+		EB00C5A2249172380058332E /* imageButtonAbrangencia.png in Resources */ = {isa = PBXBuildFile; fileRef = EB00C59F249172380058332E /* imageButtonAbrangencia.png */; };
+		EB00C5A3249172380058332E /* imageButtonAbrangencia@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB00C5A0249172380058332E /* imageButtonAbrangencia@2x.png */; };
+		EB00C5A4249172380058332E /* imageButtonAbrangencia@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB00C5A1249172380058332E /* imageButtonAbrangencia@3x.png */; };
+		EB00C5A72491754F0058332E /* HeadquarterServicesGuaruhosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB00C5A62491754F0058332E /* HeadquarterServicesGuaruhosViewController.swift */; };
 		EB026A1124573555009A784E /* HeadquartersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB026A1024573555009A784E /* HeadquartersViewController.swift */; };
 		EB026A15245735A0009A784E /* ServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB026A14245735A0009A784E /* ServiceViewController.swift */; };
 		EB026A17245735B6009A784E /* SummerCampViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB026A16245735B6009A784E /* SummerCampViewController.swift */; };
@@ -81,6 +91,7 @@
 		EBA5DD2F248D9FFC00D60DC4 /* CellDadosButtonTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBA5DD2D248D9FFC00D60DC4 /* CellDadosButtonTableViewCell.xib */; };
 		EBA5DD33248DDA2000D60DC4 /* SummerCampDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA5DD32248DDA2000D60DC4 /* SummerCampDetailViewController.swift */; };
 		EBAEA08324573A1A00BA7F4D /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAEA08224573A1A00BA7F4D /* ContactViewController.swift */; };
+		EBC111CB249026830046CFF2 /* HeadquartersDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC111CA249026830046CFF2 /* HeadquartersDetailsViewController.swift */; };
 		EBD23361248A8D0900376BAE /* imagem_superior.png in Resources */ = {isa = PBXBuildFile; fileRef = EBD2335E248A8D0700376BAE /* imagem_superior.png */; };
 		EBD23362248A8D0900376BAE /* imagem_superior@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBD2335F248A8D0800376BAE /* imagem_superior@3x.png */; };
 		EBD23363248A8D0900376BAE /* imagem_superior@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBD23360248A8D0800376BAE /* imagem_superior@2x.png */; };
@@ -124,6 +135,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EB00C593249170A10058332E /* imageButtonServiceAtivo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imageButtonServiceAtivo@2x.png"; sourceTree = "<group>"; };
+		EB00C594249170A10058332E /* imageButtonServiceAtivo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imageButtonServiceAtivo@3x.png"; sourceTree = "<group>"; };
+		EB00C595249170A10058332E /* imageButtonServiceAtivo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imageButtonServiceAtivo.png; sourceTree = "<group>"; };
+		EB00C599249171BC0058332E /* imageButtonConvenios@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imageButtonConvenios@2x.png"; sourceTree = "<group>"; };
+		EB00C59A249171BC0058332E /* imageButtonConvenios.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imageButtonConvenios.png; sourceTree = "<group>"; };
+		EB00C59B249171BC0058332E /* imageButtonConvenios@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imageButtonConvenios@3x.png"; sourceTree = "<group>"; };
+		EB00C59F249172380058332E /* imageButtonAbrangencia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imageButtonAbrangencia.png; sourceTree = "<group>"; };
+		EB00C5A0249172380058332E /* imageButtonAbrangencia@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imageButtonAbrangencia@2x.png"; sourceTree = "<group>"; };
+		EB00C5A1249172380058332E /* imageButtonAbrangencia@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imageButtonAbrangencia@3x.png"; sourceTree = "<group>"; };
+		EB00C5A62491754F0058332E /* HeadquarterServicesGuaruhosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadquarterServicesGuaruhosViewController.swift; sourceTree = "<group>"; };
 		EB026A1024573555009A784E /* HeadquartersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadquartersViewController.swift; sourceTree = "<group>"; };
 		EB026A14245735A0009A784E /* ServiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceViewController.swift; sourceTree = "<group>"; };
 		EB026A16245735B6009A784E /* SummerCampViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummerCampViewController.swift; sourceTree = "<group>"; };
@@ -232,6 +253,7 @@
 		EBA5DD2D248D9FFC00D60DC4 /* CellDadosButtonTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellDadosButtonTableViewCell.xib; sourceTree = "<group>"; };
 		EBA5DD32248DDA2000D60DC4 /* SummerCampDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummerCampDetailViewController.swift; sourceTree = "<group>"; };
 		EBAEA08224573A1A00BA7F4D /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		EBC111CA249026830046CFF2 /* HeadquartersDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadquartersDetailsViewController.swift; sourceTree = "<group>"; };
 		EBD2335E248A8D0700376BAE /* imagem_superior.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imagem_superior.png; sourceTree = "<group>"; };
 		EBD2335F248A8D0800376BAE /* imagem_superior@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imagem_superior@3x.png"; sourceTree = "<group>"; };
 		EBD23360248A8D0800376BAE /* imagem_superior@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imagem_superior@2x.png"; sourceTree = "<group>"; };
@@ -291,6 +313,15 @@
 		EB0269F0245734BD009A784E /* buttons */ = {
 			isa = PBXGroup;
 			children = (
+				EB00C59F249172380058332E /* imageButtonAbrangencia.png */,
+				EB00C5A0249172380058332E /* imageButtonAbrangencia@2x.png */,
+				EB00C5A1249172380058332E /* imageButtonAbrangencia@3x.png */,
+				EB00C59A249171BC0058332E /* imageButtonConvenios.png */,
+				EB00C599249171BC0058332E /* imageButtonConvenios@2x.png */,
+				EB00C59B249171BC0058332E /* imageButtonConvenios@3x.png */,
+				EB00C595249170A10058332E /* imageButtonServiceAtivo.png */,
+				EB00C593249170A10058332E /* imageButtonServiceAtivo@2x.png */,
+				EB00C594249170A10058332E /* imageButtonServiceAtivo@3x.png */,
 				EB45BE02245F6AD100618AF3 /* imageButtonBackMenu.png */,
 				EB45BE03245F6AD100618AF3 /* imageButtonBackMenu@2x.png */,
 				EB45BE01245F6AD000618AF3 /* imageButtonBackMenu@3x.png */,
@@ -328,6 +359,8 @@
 				EBAEA08224573A1A00BA7F4D /* ContactViewController.swift */,
 				EB026A1A245735DC009A784E /* ConventionViewController.swift */,
 				EB026A1024573555009A784E /* HeadquartersViewController.swift */,
+				EBC111CA249026830046CFF2 /* HeadquartersDetailsViewController.swift */,
+				EB00C5A62491754F0058332E /* HeadquarterServicesGuaruhosViewController.swift */,
 				EB026A18245735C8009A784E /* JoinViewController.swift */,
 				EB026A14245735A0009A784E /* ServiceViewController.swift */,
 				EB53573B245F640700D133C5 /* ShintorespDiretoriaExecutivaViewController.swift */,
@@ -627,6 +660,7 @@
 				EB535727245F546200D133C5 /* Montserrat-Regular.otf in Resources */,
 				EB37AE2324633114007C1CAB /* imageDiretoriaExecutivaManoel.png in Resources */,
 				EBD23367248AA1F800376BAE /* imageButtonNavegacao@3x.png in Resources */,
+				EB00C59E249171BC0058332E /* imageButtonConvenios@3x.png in Resources */,
 				EBD23363248A8D0900376BAE /* imagem_superior@2x.png in Resources */,
 				EB61A8E424639FFA0097575F /* imageBaseLine@2x.png in Resources */,
 				EB37AE1A24633114007C1CAB /* imageDiretoriaExecutivaFrancisco@2x.png in Resources */,
@@ -665,6 +699,7 @@
 				EBD23362248A8D0900376BAE /* imagem_superior@3x.png in Resources */,
 				EB61A8E324639FFA0097575F /* imageBaseLine@3x.png in Resources */,
 				EB8D846824550A2B0027133F /* imageLogoBranco@2x.png in Resources */,
+				EB00C5A2249172380058332E /* imageButtonAbrangencia.png in Resources */,
 				EB37AE1824633114007C1CAB /* imageDiretoriaExecutivaValdir@2x.png in Resources */,
 				EB37AE1924633114007C1CAB /* imageDiretoriaExecutivaGilberto@2x.png in Resources */,
 				EBA5DD2F248D9FFC00D60DC4 /* CellDadosButtonTableViewCell.xib in Resources */,
@@ -672,9 +707,11 @@
 				EB8D846C245515740027133F /* imageBackgroundSP.png in Resources */,
 				EB37AE1424633114007C1CAB /* imageDiretoriaExecutivaRubens@3x.png in Resources */,
 				EB242BEE2455389D00A4F49D /* imageButtonSummerCamp@3x.png in Resources */,
+				EB00C59C249171BC0058332E /* imageButtonConvenios@2x.png in Resources */,
 				EB37AE1524633114007C1CAB /* imageDiretoriaExecutivaJoao@2x.png in Resources */,
 				EB37AE1224633114007C1CAB /* imageDiretoriaExecutivaEdimundo@3x.png in Resources */,
 				EB37AE2524633114007C1CAB /* imageDiretoriaExecutivaFrancisco.png in Resources */,
+				EB00C59D249171BC0058332E /* imageButtonConvenios.png in Resources */,
 				EB8D846724550A2B0027133F /* imageLogoBranco.png in Resources */,
 				EBFBB5BB248EF2DC00F85384 /* imageButtonNavegacaoCor@3x.png in Resources */,
 				EB37AE1C24633114007C1CAB /* imageDiretoriaExecutivaManoel@2x.png in Resources */,
@@ -685,13 +722,18 @@
 				EB242BE22455389D00A4F49D /* imageButtonJoin.png in Resources */,
 				EB37AE1D24633114007C1CAB /* imageDiretoriaExecutivaManoel@3x.png in Resources */,
 				EB242BE12455389D00A4F49D /* imageButtonJoin@3x.png in Resources */,
+				EB00C597249170A10058332E /* imageButtonServiceAtivo@3x.png in Resources */,
+				EB00C598249170A10058332E /* imageButtonServiceAtivo.png in Resources */,
 				EB37AE2024633114007C1CAB /* imageDiretoriaExecutivaJoao.png in Resources */,
+				EB00C5A4249172380058332E /* imageButtonAbrangencia@3x.png in Resources */,
 				EB37AE1B24633114007C1CAB /* imageDiretoriaExecutivaRubens@2x.png in Resources */,
 				EBFBB5B9248EF2DC00F85384 /* imageButtonNavegacaoCor.png in Resources */,
 				EBD23368248AA1F800376BAE /* imageButtonNavegacao@2x.png in Resources */,
+				EB00C596249170A10058332E /* imageButtonServiceAtivo@2x.png in Resources */,
 				EB242BFE24555A2B00A4F49D /* imageButtonBack@2x.png in Resources */,
 				EB45BE06245F6AD100618AF3 /* imageButtonBackMenu@2x.png in Resources */,
 				EB242BF424553A2B00A4F49D /* imageButtonContact@3x.png in Resources */,
+				EB00C5A3249172380058332E /* imageButtonAbrangencia@2x.png in Resources */,
 				EB8D846E245515740027133F /* imageBackgroundSP@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -719,6 +761,7 @@
 			files = (
 				EBE76D7A2454DD3200984CD8 /* ViewController.swift in Sources */,
 				EBE76D762454DD3200984CD8 /* AppDelegate.swift in Sources */,
+				EBC111CB249026830046CFF2 /* HeadquartersDetailsViewController.swift in Sources */,
 				EBA5DD33248DDA2000D60DC4 /* SummerCampDetailViewController.swift in Sources */,
 				EB026A19245735C8009A784E /* JoinViewController.swift in Sources */,
 				EBA5DD2E248D9FFC00D60DC4 /* CellDadosButtonTableViewCell.swift in Sources */,
@@ -726,6 +769,7 @@
 				EB026A15245735A0009A784E /* ServiceViewController.swift in Sources */,
 				EBE76D782454DD3200984CD8 /* SceneDelegate.swift in Sources */,
 				EB026A1124573555009A784E /* HeadquartersViewController.swift in Sources */,
+				EB00C5A72491754F0058332E /* HeadquarterServicesGuaruhosViewController.swift in Sources */,
 				EB026A17245735B6009A784E /* SummerCampViewController.swift in Sources */,
 				EB026A1B245735DC009A784E /* ConventionViewController.swift in Sources */,
 				EB242BC42455289E00A4F49D /* SinthorespViewController.swift in Sources */,
@@ -907,7 +951,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.3;
+				CURRENT_PROJECT_VERSION = 1.3.1;
 				DEVELOPMENT_TEAM = 7XERYR8K5T;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -931,7 +975,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.3;
+				CURRENT_PROJECT_VERSION = 1.3.1;
 				DEVELOPMENT_TEAM = 7XERYR8K5T;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",

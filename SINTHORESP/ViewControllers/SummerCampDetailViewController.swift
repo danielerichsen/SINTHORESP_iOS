@@ -21,6 +21,15 @@ class SummerCampDetailViewController: UIViewController {
 
     @IBOutlet weak var labelTituloColoniaDetalhe: UILabel!
     
+    @IBAction func buttonBack(_ sender: UIButton) {
+        dismiss(animated: false, completion: nil)
+    }
+    
+    @IBAction func showScreenMenu(_ sender: UIButton) {
+        let viewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "ViewController")
+        self.present(viewController, animated: false, completion: nil)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -28,13 +37,14 @@ class SummerCampDetailViewController: UIViewController {
         
         let screensize: CGRect = UIScreen.main.bounds
         let screenWidth = screensize.width
+        let screenHeight = screensize.height
+        //
         var scrollView: UIScrollView!
         
-        let screenHeight = screensize.height
         
         // iPhone 8
         if screenHeight == 667.0 {
-            scrollView = UIScrollView(frame: CGRect(x: 0.0, y: 78.0, width: screenWidth, height: 500.0))
+            scrollView = UIScrollView(frame: CGRect(x: 0.0, y: 78.0, width: screenWidth, height: 499.0))
         
         // iPhone 8 Plus
         } else if screenHeight == 736.0 {
@@ -49,7 +59,8 @@ class SummerCampDetailViewController: UIViewController {
             scrollView = UIScrollView(frame: CGRect(x: 0.0, y: 94.0, width: screenWidth, height: 629.0))
         }
         
-        scrollView.backgroundColor = .blue
+//        Para visualizar o tamanho
+//        scrollView.backgroundColor = .blue
         
         
         
@@ -113,6 +124,8 @@ class SummerCampDetailViewController: UIViewController {
         
         let largeFont = UIFont(name: "Montserrat-Bold", size: 20.0)!
         let smallFont = UIFont(name: "Montserrat-Regular", size: 18.0)!
+        let colorLargeFont = UIColor(red: 16.0/255.0, green: 135.0/255.0, blue: 155.0/255.0, alpha: 1.0)
+        let colorSmallFont = UIColor(red: 109.0/255.0, green: 109.0/255.0, blue: 109.0/255.0, alpha: 1.0)
         
 
         //  Convert textString to NSString because attrText.addAttribute takes an NSRange.
@@ -127,6 +140,12 @@ class SummerCampDetailViewController: UIViewController {
         attrTextColonia.addAttribute(NSAttributedString.Key.font, value: smallFont, range: textoLazerRange)
         attrTextColonia.addAttribute(NSAttributedString.Key.font, value: largeFont, range: textoTituloAcomodacoesRange)
         attrTextColonia.addAttribute(NSAttributedString.Key.font, value: smallFont, range: textoAcomodacoesRange)
+        
+        attrTextColonia.addAttribute(NSAttributedString.Key.foregroundColor, value: colorSmallFont, range: textoColoniaRange)
+        attrTextColonia.addAttribute(NSAttributedString.Key.foregroundColor, value: colorLargeFont, range: textoTituloLazerRange)
+        attrTextColonia.addAttribute(NSAttributedString.Key.foregroundColor, value: colorSmallFont, range: textoLazerRange)
+        attrTextColonia.addAttribute(NSAttributedString.Key.foregroundColor, value: colorLargeFont, range: textoTituloAcomodacoesRange)
+        attrTextColonia.addAttribute(NSAttributedString.Key.foregroundColor, value: colorSmallFont, range: textoAcomodacoesRange)
 
         textView.attributedText = attrTextColonia
 
@@ -229,9 +248,4 @@ class SummerCampDetailViewController: UIViewController {
     print("buttonActionReserva")
     }
     
-    @IBAction func buttonBack(_ sender: UIButton) {
-        dismiss(animated: false, completion: nil)
-    }
-    
-
 }
