@@ -11,6 +11,7 @@ import UIKit
 class ServiceViewController: UIViewController {
     
     var setServico: String!
+    var setServiceType : String!
 
     @IBOutlet weak var labelTituloServicos: UILabel!
     
@@ -243,7 +244,7 @@ class ServiceViewController: UIViewController {
     @objc func buttonActionAtendimentoMedico(sender: UIButton!) {
         setServico = "ATENDIMENTO MEDICO"
         print("ATENDIMENTO MEDICO")
-        //performSegue(withIdentifier: "summerCampDetails", sender: nil)
+        performSegue(withIdentifier: "ServiceAtendimentoMedicoSegue", sender: nil)
     }
     
     @objc func buttonActionEscolaSinthoresp(sender: UIButton!) {
@@ -283,5 +284,11 @@ class ServiceViewController: UIViewController {
     }
     
     
-    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        if (setServico == "ATENDIMENTO MEDICO"){
+            guard segue.destination is ServiceAtendimentoMedicoViewController else { return }
+        }
+        
+    }
 }

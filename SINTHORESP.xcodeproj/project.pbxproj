@@ -17,6 +17,12 @@
 		EB00C5A3249172380058332E /* imageButtonAbrangencia@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB00C5A0249172380058332E /* imageButtonAbrangencia@2x.png */; };
 		EB00C5A4249172380058332E /* imageButtonAbrangencia@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB00C5A1249172380058332E /* imageButtonAbrangencia@3x.png */; };
 		EB00C5A72491754F0058332E /* HeadquarterServicesGuaruhosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB00C5A62491754F0058332E /* HeadquarterServicesGuaruhosViewController.swift */; };
+		EB00C5A9249286E90058332E /* HeadquarterServiceDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB00C5A8249286E80058332E /* HeadquarterServiceDetailsViewController.swift */; };
+		EB00C5AB249297F80058332E /* HeadquarterAbrangenciaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB00C5AA249297F80058332E /* HeadquarterAbrangenciaViewController.swift */; };
+		EB00C5B02492B2690058332E /* image_servico_atendimento_medico.png in Resources */ = {isa = PBXBuildFile; fileRef = EB00C5AD2492B2680058332E /* image_servico_atendimento_medico.png */; };
+		EB00C5B12492B2690058332E /* image_servico_atendimento_medico@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB00C5AE2492B2680058332E /* image_servico_atendimento_medico@3x.png */; };
+		EB00C5B22492B2690058332E /* image_servico_atendimento_medico@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB00C5AF2492B2680058332E /* image_servico_atendimento_medico@2x.png */; };
+		EB00C5B42492B2F30058332E /* ServiceAtendimentoMedicoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB00C5B32492B2F30058332E /* ServiceAtendimentoMedicoViewController.swift */; };
 		EB026A1124573555009A784E /* HeadquartersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB026A1024573555009A784E /* HeadquartersViewController.swift */; };
 		EB026A15245735A0009A784E /* ServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB026A14245735A0009A784E /* ServiceViewController.swift */; };
 		EB026A17245735B6009A784E /* SummerCampViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB026A16245735B6009A784E /* SummerCampViewController.swift */; };
@@ -85,10 +91,6 @@
 		EB8D846C245515740027133F /* imageBackgroundSP.png in Resources */ = {isa = PBXBuildFile; fileRef = EB8D8469245515740027133F /* imageBackgroundSP.png */; };
 		EB8D846D245515740027133F /* imageBackgroundSP@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB8D846A245515740027133F /* imageBackgroundSP@2x.png */; };
 		EB8D846E245515740027133F /* imageBackgroundSP@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB8D846B245515740027133F /* imageBackgroundSP@3x.png */; };
-		EBA5DD28248D96A900D60DC4 /* DataBaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA5DD27248D96A900D60DC4 /* DataBaseController.swift */; };
-		EBA5DD2B248D9C5800D60DC4 /* SINTHORESP.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EBA5DD29248D9C5800D60DC4 /* SINTHORESP.xcdatamodeld */; };
-		EBA5DD2E248D9FFC00D60DC4 /* CellDadosButtonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA5DD2C248D9FFC00D60DC4 /* CellDadosButtonTableViewCell.swift */; };
-		EBA5DD2F248D9FFC00D60DC4 /* CellDadosButtonTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBA5DD2D248D9FFC00D60DC4 /* CellDadosButtonTableViewCell.xib */; };
 		EBA5DD33248DDA2000D60DC4 /* SummerCampDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA5DD32248DDA2000D60DC4 /* SummerCampDetailViewController.swift */; };
 		EBAEA08324573A1A00BA7F4D /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAEA08224573A1A00BA7F4D /* ContactViewController.swift */; };
 		EBC111CB249026830046CFF2 /* HeadquartersDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC111CA249026830046CFF2 /* HeadquartersDetailsViewController.swift */; };
@@ -145,6 +147,12 @@
 		EB00C5A0249172380058332E /* imageButtonAbrangencia@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imageButtonAbrangencia@2x.png"; sourceTree = "<group>"; };
 		EB00C5A1249172380058332E /* imageButtonAbrangencia@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imageButtonAbrangencia@3x.png"; sourceTree = "<group>"; };
 		EB00C5A62491754F0058332E /* HeadquarterServicesGuaruhosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadquarterServicesGuaruhosViewController.swift; sourceTree = "<group>"; };
+		EB00C5A8249286E80058332E /* HeadquarterServiceDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadquarterServiceDetailsViewController.swift; sourceTree = "<group>"; };
+		EB00C5AA249297F80058332E /* HeadquarterAbrangenciaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadquarterAbrangenciaViewController.swift; sourceTree = "<group>"; };
+		EB00C5AD2492B2680058332E /* image_servico_atendimento_medico.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_servico_atendimento_medico.png; sourceTree = "<group>"; };
+		EB00C5AE2492B2680058332E /* image_servico_atendimento_medico@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image_servico_atendimento_medico@3x.png"; sourceTree = "<group>"; };
+		EB00C5AF2492B2680058332E /* image_servico_atendimento_medico@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image_servico_atendimento_medico@2x.png"; sourceTree = "<group>"; };
+		EB00C5B32492B2F30058332E /* ServiceAtendimentoMedicoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceAtendimentoMedicoViewController.swift; sourceTree = "<group>"; };
 		EB026A1024573555009A784E /* HeadquartersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadquartersViewController.swift; sourceTree = "<group>"; };
 		EB026A14245735A0009A784E /* ServiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceViewController.swift; sourceTree = "<group>"; };
 		EB026A16245735B6009A784E /* SummerCampViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummerCampViewController.swift; sourceTree = "<group>"; };
@@ -247,10 +255,6 @@
 		EB8D8469245515740027133F /* imageBackgroundSP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imageBackgroundSP.png; sourceTree = "<group>"; };
 		EB8D846A245515740027133F /* imageBackgroundSP@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imageBackgroundSP@2x.png"; sourceTree = "<group>"; };
 		EB8D846B245515740027133F /* imageBackgroundSP@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imageBackgroundSP@3x.png"; sourceTree = "<group>"; };
-		EBA5DD27248D96A900D60DC4 /* DataBaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBaseController.swift; sourceTree = "<group>"; };
-		EBA5DD2A248D9C5800D60DC4 /* SINTHORESP.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SINTHORESP.xcdatamodel; sourceTree = "<group>"; };
-		EBA5DD2C248D9FFC00D60DC4 /* CellDadosButtonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellDadosButtonTableViewCell.swift; sourceTree = "<group>"; };
-		EBA5DD2D248D9FFC00D60DC4 /* CellDadosButtonTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellDadosButtonTableViewCell.xib; sourceTree = "<group>"; };
 		EBA5DD32248DDA2000D60DC4 /* SummerCampDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummerCampDetailViewController.swift; sourceTree = "<group>"; };
 		EBAEA08224573A1A00BA7F4D /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
 		EBC111CA249026830046CFF2 /* HeadquartersDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadquartersDetailsViewController.swift; sourceTree = "<group>"; };
@@ -310,6 +314,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EB00C5AC2492B2450058332E /* services */ = {
+			isa = PBXGroup;
+			children = (
+				EB00C5AD2492B2680058332E /* image_servico_atendimento_medico.png */,
+				EB00C5AF2492B2680058332E /* image_servico_atendimento_medico@2x.png */,
+				EB00C5AE2492B2680058332E /* image_servico_atendimento_medico@3x.png */,
+			);
+			path = services;
+			sourceTree = "<group>";
+		};
 		EB0269F0245734BD009A784E /* buttons */ = {
 			isa = PBXGroup;
 			children = (
@@ -361,8 +375,11 @@
 				EB026A1024573555009A784E /* HeadquartersViewController.swift */,
 				EBC111CA249026830046CFF2 /* HeadquartersDetailsViewController.swift */,
 				EB00C5A62491754F0058332E /* HeadquarterServicesGuaruhosViewController.swift */,
+				EB00C5A8249286E80058332E /* HeadquarterServiceDetailsViewController.swift */,
+				EB00C5AA249297F80058332E /* HeadquarterAbrangenciaViewController.swift */,
 				EB026A18245735C8009A784E /* JoinViewController.swift */,
 				EB026A14245735A0009A784E /* ServiceViewController.swift */,
+				EB00C5B32492B2F30058332E /* ServiceAtendimentoMedicoViewController.swift */,
 				EB53573B245F640700D133C5 /* ShintorespDiretoriaExecutivaViewController.swift */,
 				EB242BC32455289E00A4F49D /* SinthorespViewController.swift */,
 				EB026A16245735B6009A784E /* SummerCampViewController.swift */,
@@ -477,10 +494,6 @@
 				EBE76D7E2454DD3800984CD8 /* Assets.xcassets */,
 				EBE76D802454DD3800984CD8 /* LaunchScreen.storyboard */,
 				EBE76D832454DD3800984CD8 /* Info.plist */,
-				EBA5DD27248D96A900D60DC4 /* DataBaseController.swift */,
-				EBA5DD29248D9C5800D60DC4 /* SINTHORESP.xcdatamodeld */,
-				EBA5DD2C248D9FFC00D60DC4 /* CellDadosButtonTableViewCell.swift */,
-				EBA5DD2D248D9FFC00D60DC4 /* CellDadosButtonTableViewCell.xib */,
 			);
 			path = SINTHORESP;
 			sourceTree = "<group>";
@@ -506,10 +519,13 @@
 		EBE76DA52454EE6E00984CD8 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				EB00C5AC2492B2450058332E /* services */,
+				EB37ADFB246330ED007C1CAB /* directors */,
+				EBFBB5A9248ED59900F85384 /* colonias */,
+				EB0269F0245734BD009A784E /* buttons */,
 				EBFBB5B6248EF2DB00F85384 /* imageButtonNavegacaoCor.png */,
 				EBFBB5B7248EF2DB00F85384 /* imageButtonNavegacaoCor@2x.png */,
 				EBFBB5B8248EF2DC00F85384 /* imageButtonNavegacaoCor@3x.png */,
-				EBFBB5A9248ED59900F85384 /* colonias */,
 				EBD23366248AA1F800376BAE /* imageButtonNavegacao.png */,
 				EBD23365248AA1F800376BAE /* imageButtonNavegacao@2x.png */,
 				EBD23364248AA1F800376BAE /* imageButtonNavegacao@3x.png */,
@@ -519,8 +535,6 @@
 				EB61A8E224639FFA0097575F /* imageBaseLine.png */,
 				EB61A8E124639FF90097575F /* imageBaseLine@2x.png */,
 				EB61A8E024639FF90097575F /* imageBaseLine@3x.png */,
-				EB37ADFB246330ED007C1CAB /* directors */,
-				EB0269F0245734BD009A784E /* buttons */,
 				EB8D8469245515740027133F /* imageBackgroundSP.png */,
 				EB8D846A245515740027133F /* imageBackgroundSP@2x.png */,
 				EB8D846B245515740027133F /* imageBackgroundSP@3x.png */,
@@ -658,6 +672,7 @@
 				EBFBB5B2248ED5B000F85384 /* image_colonia_caraguatatuba@2x.png in Resources */,
 				EB242BF324553A2B00A4F49D /* imageButtonContact@2x.png in Resources */,
 				EB535727245F546200D133C5 /* Montserrat-Regular.otf in Resources */,
+				EB00C5B02492B2690058332E /* image_servico_atendimento_medico.png in Resources */,
 				EB37AE2324633114007C1CAB /* imageDiretoriaExecutivaManoel.png in Resources */,
 				EBD23367248AA1F800376BAE /* imageButtonNavegacao@3x.png in Resources */,
 				EB00C59E249171BC0058332E /* imageButtonConvenios@3x.png in Resources */,
@@ -699,12 +714,13 @@
 				EBD23362248A8D0900376BAE /* imagem_superior@3x.png in Resources */,
 				EB61A8E324639FFA0097575F /* imageBaseLine@3x.png in Resources */,
 				EB8D846824550A2B0027133F /* imageLogoBranco@2x.png in Resources */,
+				EB00C5B22492B2690058332E /* image_servico_atendimento_medico@2x.png in Resources */,
 				EB00C5A2249172380058332E /* imageButtonAbrangencia.png in Resources */,
 				EB37AE1824633114007C1CAB /* imageDiretoriaExecutivaValdir@2x.png in Resources */,
 				EB37AE1924633114007C1CAB /* imageDiretoriaExecutivaGilberto@2x.png in Resources */,
-				EBA5DD2F248D9FFC00D60DC4 /* CellDadosButtonTableViewCell.xib in Resources */,
 				EBFBB5B4248ED5B000F85384 /* image_colonia_peruibe_oasis@2x.png in Resources */,
 				EB8D846C245515740027133F /* imageBackgroundSP.png in Resources */,
+				EB00C5B12492B2690058332E /* image_servico_atendimento_medico@3x.png in Resources */,
 				EB37AE1424633114007C1CAB /* imageDiretoriaExecutivaRubens@3x.png in Resources */,
 				EB242BEE2455389D00A4F49D /* imageButtonSummerCamp@3x.png in Resources */,
 				EB00C59C249171BC0058332E /* imageButtonConvenios@2x.png in Resources */,
@@ -764,19 +780,19 @@
 				EBC111CB249026830046CFF2 /* HeadquartersDetailsViewController.swift in Sources */,
 				EBA5DD33248DDA2000D60DC4 /* SummerCampDetailViewController.swift in Sources */,
 				EB026A19245735C8009A784E /* JoinViewController.swift in Sources */,
-				EBA5DD2E248D9FFC00D60DC4 /* CellDadosButtonTableViewCell.swift in Sources */,
 				EB53573E245F649D00D133C5 /* SinhorespDiretoriaSinthorespViewController.swift in Sources */,
 				EB026A15245735A0009A784E /* ServiceViewController.swift in Sources */,
+				EB00C5A9249286E90058332E /* HeadquarterServiceDetailsViewController.swift in Sources */,
 				EBE76D782454DD3200984CD8 /* SceneDelegate.swift in Sources */,
 				EB026A1124573555009A784E /* HeadquartersViewController.swift in Sources */,
 				EB00C5A72491754F0058332E /* HeadquarterServicesGuaruhosViewController.swift in Sources */,
 				EB026A17245735B6009A784E /* SummerCampViewController.swift in Sources */,
 				EB026A1B245735DC009A784E /* ConventionViewController.swift in Sources */,
+				EB00C5AB249297F80058332E /* HeadquarterAbrangenciaViewController.swift in Sources */,
+				EB00C5B42492B2F30058332E /* ServiceAtendimentoMedicoViewController.swift in Sources */,
 				EB242BC42455289E00A4F49D /* SinthorespViewController.swift in Sources */,
 				EB535740245F64BC00D133C5 /* SinthorespConselhoRepresentacaoViewController.swift in Sources */,
 				EBAEA08324573A1A00BA7F4D /* ContactViewController.swift in Sources */,
-				EBA5DD2B248D9C5800D60DC4 /* SINTHORESP.xcdatamodeld in Sources */,
-				EBA5DD28248D96A900D60DC4 /* DataBaseController.swift in Sources */,
 				EB53573C245F640700D133C5 /* ShintorespDiretoriaExecutivaViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1118,19 +1134,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		EBA5DD29248D9C5800D60DC4 /* SINTHORESP.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				EBA5DD2A248D9C5800D60DC4 /* SINTHORESP.xcdatamodel */,
-			);
-			currentVersion = EBA5DD2A248D9C5800D60DC4 /* SINTHORESP.xcdatamodel */;
-			path = SINTHORESP.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = EBE76D6A2454DD3200984CD8 /* Project object */;
 }

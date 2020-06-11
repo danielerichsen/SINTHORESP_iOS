@@ -13,6 +13,8 @@ import MessageUI
 class HeadquartersDetailsViewController: UIViewController, MFMailComposeViewControllerDelegate {
     
     var tituloUnidade : String!
+    var viewSegue : String!
+    var tipo: String!
     //
     var nameImageUnidadeSegue: String!
     var labelEnderecoSegue: String!
@@ -429,7 +431,7 @@ class HeadquartersDetailsViewController: UIViewController, MFMailComposeViewCont
 
             // Configure the fields of the interface.
             composeVC.setToRecipients([labelEmailSegue!])
-            composeVC.setSubject("Contato AplicatiVo Mobile")
+            composeVC.setSubject("Contato Aplicativo Mobile")
 //            composeVC.setMessageBody("Escreva aqui sua mensagem ...", isHTML: false)
 
             // Present the view controller modally.
@@ -438,32 +440,47 @@ class HeadquartersDetailsViewController: UIViewController, MFMailComposeViewCont
     }
     
     @objc func buttonActionServicos(sender: UIButton!) {
+        tipo = "servico"
         
         if (tituloUnidade == "GUARULHOS") {
             performSegue(withIdentifier: "headquartersServiceGuarulhosSegue", sender: nil)
-            var viewSegue = "headquartersServiceGuarulhosSegue"
+            print("buttonActionServicos")
         }
     }
     
     @objc func buttonActionConvenios(sender: UIButton!) {
+        tipo = "convenio"
         print("buttonActionConvenios")
+        
+        
     }
     
     @objc func buttonActionAbrangencia(sender: UIButton!) {
+        tipo = "abrangencia"
         print("buttonActionAbrangencia")
+        performSegue(withIdentifier: "headquartersAbrangenciaSegue", sender: nil)
     }
     
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        guard let viewSegue = segue.destination as? HeadquartersDetailsViewController else { return }
+        
+        if (tipo == "servico") {
+            guard let headquartersServiceGuarulhosSegue = segue.destination as? HeadquarterServiceDetailsViewController else { return }
+            
+        } else if (tipo == "abrangencia") {
+            guard let headquartersAbrangenciaSegue = segue.destination as? HeadquarterAbrangenciaViewController else { return }
+            if (tituloUnidade == "GUARULHOS") {
+                headquartersAbrangenciaSegue.setTituloUnidade = tituloUnidade
+                headquartersAbrangenciaSegue.setTextAbrangencia = "Arujá\nGuarulhos\nItaquaquecetuba\nMairiporã"
+            }
+        }
     }
     
     
-    func mailComposeController(_ controller: MFMailComposeViewController,
-                               didFinishWith result: MFMailComposeResult, error: Error?) {
+    func mailComposeController(_ controller: MFMailComposeViewController, didFinishWith result: MFMailComposeResult, error: Error?) {
         // Check the result or perform other tasks.
 
         // Dismiss the mail compose view controller.
         controller.dismiss(animated: true, completion: nil)
-       }
+    }
 }

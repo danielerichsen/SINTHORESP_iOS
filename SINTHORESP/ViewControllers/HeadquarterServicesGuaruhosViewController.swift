@@ -10,8 +10,11 @@ import UIKit
 
 
 class HeadquarterServicesGuaruhosViewController: UIViewController {
-        let numberOfServices : Int = 8
-        var controle : Int = 0
+    //
+    var setUnidade: String!
+    var setServico : String!
+    var setServicoDescritivo : String!
+    
     //
     @IBAction func buttonBack(_ sender: UIButton) {
         dismiss(animated: false, completion: nil)
@@ -38,20 +41,20 @@ class HeadquarterServicesGuaruhosViewController: UIViewController {
         
         // iPhone 8 Plus
         } else if screenHeight == 736.0 {
-            scrollView = UIScrollView(frame: CGRect(x: 0.0, y: 86.0, width: screenWidth, height: 461.0))
+            scrollView = UIScrollView(frame: CGRect(x: 0.0, y: 125.0, width: screenWidth, height: 521.0))
             
         // iPhone 11 e Max
         } else if screenHeight == 896.0 {
-            scrollView = UIScrollView(frame: CGRect(x: 0.0, y: 104.0, width: screenWidth, height: 603.0))
+            scrollView = UIScrollView(frame: CGRect(x: 0.0, y: 150.0, width: screenWidth, height: 603.0))
             
         // iPhone 11 PRO
         } else if screenHeight == 812.0 {
-            scrollView = UIScrollView(frame: CGRect(x: 0.0, y: 94.0, width: screenWidth, height: 529.0))
+            scrollView = UIScrollView(frame: CGRect(x: 0.0, y: 140.0, width: screenWidth, height: 580.0))
         }
         
         
         //        Para visualizar o tamanho
-        scrollView.backgroundColor = .blue
+//        scrollView.backgroundColor = .blue
         
         
         
@@ -60,7 +63,7 @@ class HeadquarterServicesGuaruhosViewController: UIViewController {
         // >>>> PRIMEIRO BOTÃO <<<<
         let buttonClinicoGeral = UIButton(type: UIButton.ButtonType.custom)
         buttonClinicoGeral.setBackgroundImage(imageBackgroundButton, for: .normal)
-        buttonClinicoGeral.setTitle("CLINICO GERAL", for: .normal)
+        buttonClinicoGeral.setTitle("CLÍNICO GERAL", for: .normal)
         buttonClinicoGeral.setTitleColor(UIColor(red: 0.2, green: 0.2, blue: 0.2, alpha: 1.0), for: .normal)
         buttonClinicoGeral.titleLabel?.font = UIFont(name: "Montserrat-Bold", size: 16)
         buttonClinicoGeral.contentHorizontalAlignment = UIControl.ContentHorizontalAlignment.left
@@ -140,26 +143,47 @@ class HeadquarterServicesGuaruhosViewController: UIViewController {
         
         // iPhone 8
         if screenHeight == 667.0 {
-            buttonClinicoGeral.frame = CGRect(x: 16, y: (0.0 + (65.0 * 0.0)), width: 343, height: 55)
-            buttonGinecologia.frame = CGRect(x: 16, y: (0.0 + (65.0 * 1.0)), width: 343, height: 55)
-            buttonReservaColonia.frame = CGRect(x: 16, y: (0.0 + (65.0 * 2.0)), width: 343, height: 55)
-            buttonSalaoCabeleireiro.frame = CGRect(x: 16, y: (0.0 + (65.0 * 3.0)), width: 343, height: 55)
-            buttonHomologacao.frame = CGRect(x: 16, y: (0.0 + (65.0 * 4.0)), width: 343, height: 55)
-            buttonDeptoJuridico.frame = CGRect(x: 16, y: (0.0 + (65.0 * 5.0)), width: 343, height: 55)
-            buttonDeptoColetivo.frame = CGRect(x: 16, y: (0.0 + (65.0 * 6.0)), width: 343, height: 55)
-            buttonDeptoSocial.frame = CGRect(x: 16, y: (0.0 + (65.0 * 7.0)), width: 343, height: 55)
+            buttonClinicoGeral.frame = CGRect(x: 16, y: (5.0 + (65.0 * 0.0)), width: 343, height: 55)
+            buttonGinecologia.frame = CGRect(x: 16, y: (5.0 + (65.0 * 1.0)), width: 343, height: 55)
+            buttonReservaColonia.frame = CGRect(x: 16, y: (5.0 + (65.0 * 2.0)), width: 343, height: 55)
+            buttonSalaoCabeleireiro.frame = CGRect(x: 16, y: (5.0 + (65.0 * 3.0)), width: 343, height: 55)
+            buttonHomologacao.frame = CGRect(x: 16, y: (5.0 + (65.0 * 4.0)), width: 343, height: 55)
+            buttonDeptoJuridico.frame = CGRect(x: 16, y: (5.0 + (65.0 * 5.0)), width: 343, height: 55)
+            buttonDeptoColetivo.frame = CGRect(x: 16, y: (5.0 + (65.0 * 6.0)), width: 343, height: 55)
+            buttonDeptoSocial.frame = CGRect(x: 16, y: (5.0 + (65.0 * 7.0)), width: 343, height: 55)
         
         // iPhone 8 Plus
         } else if screenHeight == 736.0 {
-            buttonClinicoGeral.frame = CGRect(x: 16, y: 110, width: 382, height: 58)
+            buttonClinicoGeral.frame = CGRect(x: 16, y: (5.0 + (68.0 * 0.0)), width: 382, height: 58)
+            buttonGinecologia.frame = CGRect(x: 16, y: (5.0 + (68.0 * 1.0)), width: 382, height: 58)
+            buttonReservaColonia.frame = CGRect(x: 16, y: (5.0 + (68.0 * 2.0)), width: 382, height: 58)
+            buttonSalaoCabeleireiro.frame = CGRect(x: 16, y: (5.0 + (68.0 * 3.0)), width: 382, height: 58)
+            buttonHomologacao.frame = CGRect(x: 16, y: (5.0 + (68.0 * 4.0)), width: 382, height: 58)
+            buttonDeptoJuridico.frame = CGRect(x: 16, y: (5.0 + (68.0 * 5.0)), width: 382, height: 58)
+            buttonDeptoColetivo.frame = CGRect(x: 16, y: (5.0 + (68.0 * 6.0)), width: 382, height: 58)
+            buttonDeptoSocial.frame = CGRect(x: 16, y: (5.0 + (68.0 * 7.0)), width: 382, height: 58)
             
         // iPhone 11 e Max
         } else if screenHeight == 896.0 {
-            buttonClinicoGeral.frame = CGRect(x: 16, y: 130, width: 382, height: 60)
+            buttonClinicoGeral.frame = CGRect(x: 16, y: (5.0 + (70.0 * 0.0)), width: 382, height: 60)
+            buttonGinecologia.frame = CGRect(x: 16, y: (5.0 + (70.0 * 1.0)), width: 382, height: 60)
+            buttonReservaColonia.frame = CGRect(x: 16, y: (5.0 + (70.0 * 2.0)), width: 382, height: 60)
+            buttonSalaoCabeleireiro.frame = CGRect(x: 16, y: (5.0 + (70.0 * 3.0)), width: 382, height: 60)
+            buttonHomologacao.frame = CGRect(x: 16, y: (5.0 + (70.0 * 4.0)), width: 382, height: 60)
+            buttonDeptoJuridico.frame = CGRect(x: 16, y: (5.0 + (70.0 * 5.0)), width: 382, height: 60)
+            buttonDeptoColetivo.frame = CGRect(x: 16, y: (5.0 + (70.0 * 6.0)), width: 382, height: 60)
+            buttonDeptoSocial.frame = CGRect(x: 16, y: (5.0 + (70.0 * 7.0)), width: 382, height: 60)
             
         // iPhone 11 PRO
         } else if screenHeight == 812.0 {
-            buttonClinicoGeral.frame = CGRect(x: 16, y: 120, width: 343, height: 60)
+            buttonClinicoGeral.frame = CGRect(x: 16, y: (5.0 + (70.0 * 0.0)), width: 343, height: 60)
+            buttonGinecologia.frame = CGRect(x: 16, y: (5.0 + (70.0 * 1.0)), width: 343, height: 60)
+            buttonReservaColonia.frame = CGRect(x: 16, y: (5.0 + (70.0 * 2.0)), width: 343, height: 60)
+            buttonSalaoCabeleireiro.frame = CGRect(x: 16, y: (5.0 + (70.0 * 3.0)), width: 343, height: 60)
+            buttonHomologacao.frame = CGRect(x: 16, y: (5.0 + (70.0 * 4.0)), width: 343, height: 60)
+            buttonDeptoJuridico.frame = CGRect(x: 16, y: (5.0 + (70.0 * 5.0)), width: 343, height: 60)
+            buttonDeptoColetivo.frame = CGRect(x: 16, y: (5.0 + (70.0 * 6.0)), width: 343, height: 60)
+            buttonDeptoSocial.frame = CGRect(x: 16, y: (5.0 + (70.0 * 7.0)), width: 343, height: 60)
         }
         
         scrollView.addSubview(buttonClinicoGeral)
@@ -172,52 +196,92 @@ class HeadquarterServicesGuaruhosViewController: UIViewController {
         scrollView.addSubview(buttonDeptoSocial)
         
 
-        scrollView.contentSize = CGSize(width: screenWidth, height: 530)
+        scrollView.contentSize = CGSize(width: screenWidth, height: 550)
         view.addSubview(scrollView)
         
         
     }
     
     @objc func buttonActionClinicoGeral(sender: UIButton!) {
-        print("buttonActionClinicoGeral")
+        setServico = "CLÍNICO GERAL"
+        performSegue(withIdentifier: "headquartersServiceGuarulhosDetailSegue", sender: nil)
     }
     
     @objc func buttonActionGinecologia(sender: UIButton!) {
-        print("buttonActionGinecologia")
+        setServico = "GINECOLOGIA"
+        performSegue(withIdentifier: "headquartersServiceGuarulhosDetailSegue", sender: nil)
     }
     
     @objc func buttonActionReservaColonia(sender: UIButton!) {
-        print("buttonActionReservaColonia")
+        setServico = "RESERVA COLÔNIA"
+        performSegue(withIdentifier: "headquartersServiceGuarulhosDetailSegue", sender: nil)
     }
     
     @objc func buttonActionSalaoCabeleireiro(sender: UIButton!) {
-        print("buttonActionSalaoCabeleireiro")
+        setServico = "SALÃO DE CABELEIREIRO"
+        performSegue(withIdentifier: "headquartersServiceGuarulhosDetailSegue", sender: nil)
     }
     
     @objc func buttonActionHomologacao(sender: UIButton!) {
-        print("buttonActionHomologacao")
+        setServico = "HOMOLOGAÇÃO"
+        performSegue(withIdentifier: "headquartersServiceGuarulhosDetailSegue", sender: nil)
     }
     
     @objc func buttonActionDeptoJuridico(sender: UIButton!) {
-        print("buttonActionDeptoJuridico")
+        setServico = "DEPTO JURÍDICO"
+        performSegue(withIdentifier: "headquartersServiceGuarulhosDetailSegue", sender: nil)
     }
     
     @objc func buttonActionDeptoColetivos(sender: UIButton!) {
-        print("buttonActionDeptoColetivos")
+        setServico = "DEPTO ASSUNTOS COLETIVOS"
+        performSegue(withIdentifier: "headquartersServiceGuarulhosDetailSegue", sender: nil)
     }
     
     @objc func buttonActionDeptoSocial(sender: UIButton!) {
-        print("buttonActionDeptoSocial")
+        setServico = "DEPTO SOCIAL"
+        performSegue(withIdentifier: "headquartersServiceGuarulhosDetailSegue", sender: nil)
+    }
+    
+    //
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+    guard let headquartersServiceGuarulhosDetailSegue = segue.destination as? HeadquarterServiceDetailsViewController else { return }
+        
+//        guard segue.destination is HeadquartersDetailsViewController else { return }
+        
+        headquartersServiceGuarulhosDetailSegue.setUnidadeSegue = "GUARULHOS"
+        
+        if (setServico == "CLÍNICO GERAL") {
+            headquartersServiceGuarulhosDetailSegue.setServiceSegue = setServico
+            headquartersServiceGuarulhosDetailSegue.setServiceDetalhe = "Profissional Responsável:\nDr. Laerce Tamajusuku\n\nAtendimento na Regional\n\nTerça-feira das 09h às 12h\ncom ordem de chegada\n\nSexta-feira das 14h às 17h\ncom ordem de chagada"
+       
+        } else if (setServico == "GINECOLOGIA") {
+            headquartersServiceGuarulhosDetailSegue.setServiceSegue = setServico
+            headquartersServiceGuarulhosDetailSegue.setServiceDetalhe = "Quinta-feira das 14h às 17h\ncom hora marcada"
+        
+        } else if (setServico == "RESERVA COLÔNIA") {
+            headquartersServiceGuarulhosDetailSegue.setServiceSegue = setServico
+            headquartersServiceGuarulhosDetailSegue.setServiceDetalhe = "Os associados podem fazer  reservas para Colônia de Férias e retirar a guia para pagamento na própria regional;\nAs mensalidades dos associados também podem ser pagas no próprio Sindicato, quando não houver desconto em folha de pagamento"
+    
+        } else if (setServico == "SALÃO DE CABELEIREIRO") {
+            headquartersServiceGuarulhosDetailSegue.setServiceSegue = setServico
+            headquartersServiceGuarulhosDetailSegue.setServiceDetalhe = "Atendimento de segunda a sexta-feira das 8h às 16h30\n\nServiços:\n- corte masculino\n- corte feminino\n- escova\n- coloração\n- hidratação\n- sobrancelha, etc"
+        
+        } else if (setServico == "HOMOLOGAÇÃO") {
+            headquartersServiceGuarulhosDetailSegue.setServiceSegue = setServico
+            headquartersServiceGuarulhosDetailSegue.setServiceDetalhe = "Atendimento de segunda a sexta-feira das 8h às 16h.\n\nCom agendamento online através do site:\nsinthoresp.org.br no ícone “Homolog@r"
+            
+        } else if (setServico == "DEPTO JURÍDICO") {
+            headquartersServiceGuarulhosDetailSegue.setServiceSegue = setServico
+            headquartersServiceGuarulhosDetailSegue.setServiceDetalhe = "Dra. Rosana Lima de Carvalho  \n\nNas áreas => Cível, Trabalhista e Previdenciária \n\nAtendimento de segunda a sexta-feira das 8h às 16h30"
+            
+        } else if (setServico == "DEPTO ASSUNTOS COLETIVOS") {
+            headquartersServiceGuarulhosDetailSegue.setServiceSegue = setServico
+            headquartersServiceGuarulhosDetailSegue.setServiceDetalhe = "Dra. Tathiane Alcalde de Araujo e\nDra. Camila Araujo Calimerio \n\nAtendimento de segunda a sexta-feira das 8h às 16h"
+            
+        } else if (setServico == "DEPTO SOCIAL") {
+            headquartersServiceGuarulhosDetailSegue.setServiceSegue = setServico
+            headquartersServiceGuarulhosDetailSegue.setServiceDetalhe = "Profissional responsável – Debora Chaves de Souza Dantas\n\nAtendimento de segunda a sexta-feira das 08h às 13h30"
+            
+        }
     }
 }
-
-       /*
-       "('CLÍNICO GERAL', 'Profissional Responsável:\nDr. Laerce Tamajusuku\n\nAtendimento na Regional\n\nTerça-feira das 09h às 12h\ncom ordem de chegada\n\nSexta-feira das 14h às 17h\ncom ordem de chagada')," +
-       "('GINECOLOGIA', 'Quinta-feira das 14h às 17h\ncom hora marcada'),"  +
-       "('RESERVA COLÔNIA', 'Os associados podem fazer  reservas para Colônia de Férias e retirar a guia para pagamento na própria regional;\nAs mensalidades dos associados também podem ser pagas no próprio Sindicato, quando não houver desconto em folha de pagamento;')," +
-       "('SALÃO DE CABELEIREIRO', 'Atendimento de segunda a sexta-feira das 8h às 16h30\n\nServiços:\n- corte masculino\n- corte feminino\n- escova\n- coloração\n- hidratação\n- sobrancelha, etc.')," +
-       "('HOMOLOGAÇÃO', 'Atendimento de segunda a sexta-feira das 8h às 16h.\n\nCom agendamento online através do site:\nsinthoresp.org.br no ícone “Homolog@r”.')," +
-       "('DEPTO JURÍDICO', 'Dra. Rosana Lima de Carvalho  \n\nNas áreas => Cível, Trabalhista e Previdenciária \n\nAtendimento de segunda a sexta-feira das 8h às 16h30')," +
-       "('DEPTO ASSUNTOS COLETIVOS', 'Dra. Tathiane Alcalde de Araujo e\nDra. Camila Araujo Calimerio \n\nAtendimento de segunda a sexta-feira das 8h às 16h')," +
-       "('DEPTO SOCIAL', 'Profissional responsável – Debora Chaves de Souza Dantas\n\nAtendimento de segunda a sexta-feira das 08h às 13h30.')"
-*/
