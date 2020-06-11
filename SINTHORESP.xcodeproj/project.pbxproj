@@ -23,6 +23,8 @@
 		EB00C5B12492B2690058332E /* image_servico_atendimento_medico@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB00C5AE2492B2680058332E /* image_servico_atendimento_medico@3x.png */; };
 		EB00C5B22492B2690058332E /* image_servico_atendimento_medico@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB00C5AF2492B2680058332E /* image_servico_atendimento_medico@2x.png */; };
 		EB00C5B42492B2F30058332E /* ServiceAtendimentoMedicoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB00C5B32492B2F30058332E /* ServiceAtendimentoMedicoViewController.swift */; };
+		EB00C5B62492D1D50058332E /* ServiceEscolaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB00C5B52492D1D50058332E /* ServiceEscolaViewController.swift */; };
+		EB00C5B82492E0B90058332E /* ServiceEscolaDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB00C5B72492E0B90058332E /* ServiceEscolaDetailViewController.swift */; };
 		EB026A1124573555009A784E /* HeadquartersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB026A1024573555009A784E /* HeadquartersViewController.swift */; };
 		EB026A15245735A0009A784E /* ServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB026A14245735A0009A784E /* ServiceViewController.swift */; };
 		EB026A17245735B6009A784E /* SummerCampViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB026A16245735B6009A784E /* SummerCampViewController.swift */; };
@@ -153,6 +155,8 @@
 		EB00C5AE2492B2680058332E /* image_servico_atendimento_medico@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image_servico_atendimento_medico@3x.png"; sourceTree = "<group>"; };
 		EB00C5AF2492B2680058332E /* image_servico_atendimento_medico@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image_servico_atendimento_medico@2x.png"; sourceTree = "<group>"; };
 		EB00C5B32492B2F30058332E /* ServiceAtendimentoMedicoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceAtendimentoMedicoViewController.swift; sourceTree = "<group>"; };
+		EB00C5B52492D1D50058332E /* ServiceEscolaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceEscolaViewController.swift; sourceTree = "<group>"; };
+		EB00C5B72492E0B90058332E /* ServiceEscolaDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceEscolaDetailViewController.swift; sourceTree = "<group>"; };
 		EB026A1024573555009A784E /* HeadquartersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadquartersViewController.swift; sourceTree = "<group>"; };
 		EB026A14245735A0009A784E /* ServiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceViewController.swift; sourceTree = "<group>"; };
 		EB026A16245735B6009A784E /* SummerCampViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummerCampViewController.swift; sourceTree = "<group>"; };
@@ -380,6 +384,8 @@
 				EB026A18245735C8009A784E /* JoinViewController.swift */,
 				EB026A14245735A0009A784E /* ServiceViewController.swift */,
 				EB00C5B32492B2F30058332E /* ServiceAtendimentoMedicoViewController.swift */,
+				EB00C5B52492D1D50058332E /* ServiceEscolaViewController.swift */,
+				EB00C5B72492E0B90058332E /* ServiceEscolaDetailViewController.swift */,
 				EB53573B245F640700D133C5 /* ShintorespDiretoriaExecutivaViewController.swift */,
 				EB242BC32455289E00A4F49D /* SinthorespViewController.swift */,
 				EB026A16245735B6009A784E /* SummerCampViewController.swift */,
@@ -784,7 +790,9 @@
 				EB026A15245735A0009A784E /* ServiceViewController.swift in Sources */,
 				EB00C5A9249286E90058332E /* HeadquarterServiceDetailsViewController.swift in Sources */,
 				EBE76D782454DD3200984CD8 /* SceneDelegate.swift in Sources */,
+				EB00C5B62492D1D50058332E /* ServiceEscolaViewController.swift in Sources */,
 				EB026A1124573555009A784E /* HeadquartersViewController.swift in Sources */,
+				EB00C5B82492E0B90058332E /* ServiceEscolaDetailViewController.swift in Sources */,
 				EB00C5A72491754F0058332E /* HeadquarterServicesGuaruhosViewController.swift in Sources */,
 				EB026A17245735B6009A784E /* SummerCampViewController.swift in Sources */,
 				EB026A1B245735DC009A784E /* ConventionViewController.swift in Sources */,

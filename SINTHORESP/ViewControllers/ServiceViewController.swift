@@ -230,27 +230,14 @@ class ServiceViewController: UIViewController {
         self.view.addSubview(buttonAssistenciaSocial)
         self.view.addSubview(buttonOmbroAmigo)
         self.view.addSubview(buttonDepartamentoJuridico)
-        
-        
-        
-        // Varialver da tela e do conteúdo da colonia
-        // Largura e altura
-//        scrollView.contentSize = CGSize(width: screenWidth, height: 1458)
-//
-//        view.addSubview(scrollView)
-        
     }
     
     @objc func buttonActionAtendimentoMedico(sender: UIButton!) {
-        setServico = "ATENDIMENTO MEDICO"
-        print("ATENDIMENTO MEDICO")
         performSegue(withIdentifier: "ServiceAtendimentoMedicoSegue", sender: nil)
     }
     
     @objc func buttonActionEscolaSinthoresp(sender: UIButton!) {
-        setServico = "ESCOLA SINTHORESP"
-        print("ESCOLA SINTHORESP")
-        //performSegue(withIdentifier: "summerCampDetails", sender: nil)
+        performSegue(withIdentifier: "ServiceEscolaSegue", sender: nil)
     }
     
     @objc func buttonActionBolsaEmpregos(sender: UIButton!) {
@@ -285,10 +272,14 @@ class ServiceViewController: UIViewController {
     
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//            guard segue.destination is ServiceAtendimentoMedicoViewController else { return }
         
-        if (setServico == "ATENDIMENTO MEDICO"){
-            guard segue.destination is ServiceAtendimentoMedicoViewController else { return }
-        }
+//        if (setServico == "ATENDIMENTO MEDICO"){
+//            guard segue.destination is ServiceAtendimentoMedicoViewController else { return }
+//
+//        } else if (setServico == "ESCOLA SINTHORESP"){
+//            guard segue.destination is ServiceAtendimentoMedicoViewController else { return }
+//        }
         
     }
 }
