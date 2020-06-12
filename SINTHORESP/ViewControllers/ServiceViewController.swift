@@ -243,7 +243,7 @@ class ServiceViewController: UIViewController {
     @objc func buttonActionBolsaEmpregos(sender: UIButton!) {
         setServico = "BOLSA DE EMPREGOS"
         print("BOLSA DE EMPREGOS")
-        //performSegue(withIdentifier: "summerCampDetails", sender: nil)
+        performSegue(withIdentifier: "ServiceBolsaEmpregosSegue", sender: nil)
     }
     
     @objc func buttonActionClubeBeneficios(sender: UIButton!) {

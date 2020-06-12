@@ -84,6 +84,7 @@
 		EB53573C245F640700D133C5 /* ShintorespDiretoriaExecutivaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB53573B245F640700D133C5 /* ShintorespDiretoriaExecutivaViewController.swift */; };
 		EB53573E245F649D00D133C5 /* SinhorespDiretoriaSinthorespViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB53573D245F649D00D133C5 /* SinhorespDiretoriaSinthorespViewController.swift */; };
 		EB535740245F64BC00D133C5 /* SinthorespConselhoRepresentacaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB53573F245F64BC00D133C5 /* SinthorespConselhoRepresentacaoViewController.swift */; };
+		EB611CB72493C89700767707 /* ServiceBolsaEmpregosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB611CB62493C89700767707 /* ServiceBolsaEmpregosViewController.swift */; };
 		EB61A8E324639FFA0097575F /* imageBaseLine@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB61A8E024639FF90097575F /* imageBaseLine@3x.png */; };
 		EB61A8E424639FFA0097575F /* imageBaseLine@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB61A8E124639FF90097575F /* imageBaseLine@2x.png */; };
 		EB61A8E524639FFA0097575F /* imageBaseLine.png in Resources */ = {isa = PBXBuildFile; fileRef = EB61A8E224639FFA0097575F /* imageBaseLine.png */; };
@@ -250,6 +251,7 @@
 		EB53573B245F640700D133C5 /* ShintorespDiretoriaExecutivaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShintorespDiretoriaExecutivaViewController.swift; sourceTree = "<group>"; };
 		EB53573D245F649D00D133C5 /* SinhorespDiretoriaSinthorespViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinhorespDiretoriaSinthorespViewController.swift; sourceTree = "<group>"; };
 		EB53573F245F64BC00D133C5 /* SinthorespConselhoRepresentacaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinthorespConselhoRepresentacaoViewController.swift; sourceTree = "<group>"; };
+		EB611CB62493C89700767707 /* ServiceBolsaEmpregosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceBolsaEmpregosViewController.swift; sourceTree = "<group>"; };
 		EB61A8E024639FF90097575F /* imageBaseLine@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imageBaseLine@3x.png"; sourceTree = "<group>"; };
 		EB61A8E124639FF90097575F /* imageBaseLine@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imageBaseLine@2x.png"; sourceTree = "<group>"; };
 		EB61A8E224639FFA0097575F /* imageBaseLine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imageBaseLine.png; sourceTree = "<group>"; };
@@ -386,6 +388,7 @@
 				EB00C5B32492B2F30058332E /* ServiceAtendimentoMedicoViewController.swift */,
 				EB00C5B52492D1D50058332E /* ServiceEscolaViewController.swift */,
 				EB00C5B72492E0B90058332E /* ServiceEscolaDetailViewController.swift */,
+				EB611CB62493C89700767707 /* ServiceBolsaEmpregosViewController.swift */,
 				EB53573B245F640700D133C5 /* ShintorespDiretoriaExecutivaViewController.swift */,
 				EB242BC32455289E00A4F49D /* SinthorespViewController.swift */,
 				EB026A16245735B6009A784E /* SummerCampViewController.swift */,
@@ -799,6 +802,7 @@
 				EB00C5AB249297F80058332E /* HeadquarterAbrangenciaViewController.swift in Sources */,
 				EB00C5B42492B2F30058332E /* ServiceAtendimentoMedicoViewController.swift in Sources */,
 				EB242BC42455289E00A4F49D /* SinthorespViewController.swift in Sources */,
+				EB611CB72493C89700767707 /* ServiceBolsaEmpregosViewController.swift in Sources */,
 				EB535740245F64BC00D133C5 /* SinthorespConselhoRepresentacaoViewController.swift in Sources */,
 				EBAEA08324573A1A00BA7F4D /* ContactViewController.swift in Sources */,
 				EB53573C245F640700D133C5 /* ShintorespDiretoriaExecutivaViewController.swift in Sources */,
