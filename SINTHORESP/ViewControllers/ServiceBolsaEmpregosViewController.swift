@@ -17,8 +17,6 @@ class ServiceBolsaEmpregosViewController: UIViewController, MFMailComposeViewCon
     var textoBolsaEmpregosQuemPodeTitulo : String!
     var textoBolsaEmpregosQuemPode : String!
     
-    
-    
     @IBAction func buttonBack(_ sender: UIButton) {
         dismiss(animated: false, completion: nil)
     }
@@ -45,19 +43,19 @@ class ServiceBolsaEmpregosViewController: UIViewController, MFMailComposeViewCon
         
         // iPhone 8 Plus
         } else if screenHeight == 736.0 {
-            scrollView = UIScrollView(frame: CGRect(x: 0.0, y: 83.0, width: screenWidth, height: 565.0))
+            scrollView = UIScrollView(frame: CGRect(x: 0.0, y: 85.0, width: screenWidth, height: 561.0))
             
         // iPhone 11 e Max
         } else if screenHeight == 896.0 {
-            scrollView = UIScrollView(frame: CGRect(x: 0.0, y: 102.0, width: screenWidth, height: 690.0))
+            scrollView = UIScrollView(frame: CGRect(x: 0.0, y: 103.0, width: screenWidth, height: 703.0))
             
         // iPhone 11 PRO
         } else if screenHeight == 812.0 {
-            scrollView = UIScrollView(frame: CGRect(x: 0.0, y: 90.0, width: screenWidth, height: 582.0))
+            scrollView = UIScrollView(frame: CGRect(x: 0.0, y: 93.0, width: screenWidth, height: 629.0))
         }
         
         
-        
+        scrollView.backgroundColor = .red
         let textView = UITextView()
             
         // iPhone 8
@@ -99,7 +97,7 @@ class ServiceBolsaEmpregosViewController: UIViewController, MFMailComposeViewCon
         let textoBolsaEmpregosQuemPodeTituloRange = (textoBolsaEmpregos as NSString).range(of: textoBolsaEmpregosQuemPodeTitulo)
         let textoBolsaEmpregosQuemPodeRange = (textoBolsaEmpregos as NSString).range(of: textoBolsaEmpregosQuemPode)
         
-         attrTextoBolsaEmpregos.addAttribute(NSAttributedString.Key.font, value: largeFont, range: textoBolsaEmpregosOQueETituloRange)
+        attrTextoBolsaEmpregos.addAttribute(NSAttributedString.Key.font, value: largeFont, range: textoBolsaEmpregosOQueETituloRange)
         attrTextoBolsaEmpregos.addAttribute(NSAttributedString.Key.font, value: smallFont, range: textoBolsaEmpregosOOueERange)
         attrTextoBolsaEmpregos.addAttribute(NSAttributedString.Key.font, value: largeFont, range: textoBolsaEmpregosQuemPodeTituloRange)
         attrTextoBolsaEmpregos.addAttribute(NSAttributedString.Key.font, value: smallFont, range: textoBolsaEmpregosQuemPodeRange)
@@ -114,6 +112,20 @@ class ServiceBolsaEmpregosViewController: UIViewController, MFMailComposeViewCon
         textView.translatesAutoresizingMaskIntoConstraints = true
         textView.sizeToFit()
         textView.isScrollEnabled = false
+        
+        
+        // >>>> Cadastro CV <<<<
+        let imageBackgroundButtonCadastro = UIImage(named: "imageButtonBolsaEmpregoCadastro") as UIImage?
+        let buttonCadastroCV = UIButton(type: UIButton.ButtonType.custom)
+        buttonCadastroCV.setBackgroundImage(imageBackgroundButtonCadastro, for: .normal)
+        buttonCadastroCV.titleLabel?.numberOfLines = 4
+        buttonCadastroCV.setTitle("PROFISSIONAIS\n\nINCLUIR SEU CADASTRO\nGRATUITAMENTE", for: .normal)
+        buttonCadastroCV.setTitleColor(UIColor(red: 1, green: 1, blue: 1, alpha: 1.0), for: .normal)
+        buttonCadastroCV.titleLabel?.font = UIFont(name: "Montserrat-Bold", size: 16)
+        buttonCadastroCV.titleLabel?.textAlignment = .center
+        buttonCadastroCV.contentHorizontalAlignment = UIControl.ContentHorizontalAlignment.center
+        buttonCadastroCV.addTarget(self, action: #selector(buttonActionCadastroCV), for: .touchUpInside)
+        
         
         let imageBackgroundButton = UIImage(named: "imageButtonNavegacaoCor") as UIImage?
         // >>>> IR <<<<
@@ -146,44 +158,55 @@ class ServiceBolsaEmpregosViewController: UIViewController, MFMailComposeViewCon
         
         
         if screenHeight == 667.0 {
-            let startController :Double = 350.0
+            let startController :Double = 550.0
+            buttonCadastroCV.frame = CGRect(x: 16, y: 390.0, width: (Double(screenWidth) - 32), height: 100)
             buttonIr.frame = CGRect(x: 16, y: (startController), width: (Double(screenWidth) - 32), height: 55)
             buttonTelefonar.frame = CGRect(x: 16, y: (startController + (65.0 * 1.0)), width: (Double(screenWidth) - 32), height: 55)
             buttonEmail.frame = CGRect(x: 16, y: (startController + (65.0 * 2.0)), width: (Double(screenWidth) - 32), height: 55)
         
         // iPhone 8 Plus
         } else if screenHeight == 736.0 {
-            let startController :Double = 350.0
+            let startController :Double = 490.0
+            buttonCadastroCV.frame = CGRect(x: 16, y: 330.0, width: (Double(screenWidth) - 32), height: 100)
             buttonIr.frame = CGRect(x: 16, y: (startController), width: (Double(screenWidth) - 32), height: 55)
             buttonTelefonar.frame = CGRect(x: 16, y: (startController + (65.0 * 1.0)), width: (Double(screenWidth) - 32), height: 55)
             buttonEmail.frame = CGRect(x: 16, y: (startController + (65.0 * 2.0)), width: (Double(screenWidth) - 32), height: 55)
             
         // iPhone 11 e Max
         } else if screenHeight == 896.0 {
-           let startController :Double = 350.0
+            let startController :Double = 490.0
+            buttonCadastroCV.frame = CGRect(x: 16, y: 330.0, width: (Double(screenWidth) - 32), height: 100)
            buttonIr.frame = CGRect(x: 16, y: (startController), width: (Double(screenWidth) - 32), height: 55)
            buttonTelefonar.frame = CGRect(x: 16, y: (startController + (65.0 * 1.0)), width: (Double(screenWidth) - 32), height: 55)
            buttonEmail.frame = CGRect(x: 16, y: (startController + (65.0 * 2.0)), width: (Double(screenWidth) - 32), height: 55)
             
         // iPhone 11 PRO
         } else if screenHeight == 812.0 {
-           let startController :Double = 350.0
+           let startController :Double = 550.0
+           buttonCadastroCV.frame = CGRect(x: 16, y: 390.0, width: (Double(screenWidth) - 32), height: 100)
            buttonIr.frame = CGRect(x: 16, y: (startController), width: (Double(screenWidth) - 32), height: 55)
            buttonTelefonar.frame = CGRect(x: 16, y: (startController + (65.0 * 1.0)), width: (Double(screenWidth) - 32), height: 55)
            buttonEmail.frame = CGRect(x: 16, y: (startController + (65.0 * 2.0)), width: (Double(screenWidth) - 32), height: 55)
         }
         
+        scrollView.addSubview(buttonCadastroCV)
         scrollView.addSubview(buttonIr)
         scrollView.addSubview(buttonTelefonar)
         scrollView.addSubview(buttonEmail)
         
-        scrollView.backgroundColor = .red
+//        scrollView.backgroundColor = .red
         scrollView.addSubview(textView)
         
-        scrollView.contentSize = CGSize(width: screenWidth, height: 580)
+        scrollView.contentSize = CGSize(width: screenWidth, height: 800)
         
         view.addSubview(scrollView)
     }
+    @objc func buttonActionCadastroCV(sender: UIButton!) {
+    print("buttonActionCadastroCV")
+        performSegue(withIdentifier: "ServiceBolsaEmpregosCadastroSegue", sender: nil)
+    }
+    
+    
     
     @objc func buttonActionIr(sender: UIButton!) {
     print("buttonActionIr")
@@ -250,7 +273,9 @@ class ServiceBolsaEmpregosViewController: UIViewController, MFMailComposeViewCon
         }
         
     }
-    
-    
-    
+
+        
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard segue.destination is ServiceBolsaEmpregosCadastroViewController else { return }
+    }
 }

@@ -249,19 +249,19 @@ class ServiceViewController: UIViewController {
     @objc func buttonActionClubeBeneficios(sender: UIButton!) {
         setServico = "CLUBE DE BENEFÍCIOS"
         print("CLUBE DE BENEFÍCIOS")
-        //performSegue(withIdentifier: "summerCampDetails", sender: nil)
+        performSegue(withIdentifier: "ServiceClubeBeneficioSegue", sender: nil)
     }
     
     @objc func buttonActionAssistenciaSocial(sender: UIButton!) {
         setServico = "ASSISTÊNCIA SOCIAL"
         print("ASSISTÊNCIA SOCIAL")
-        //performSegue(withIdentifier: "summerCampDetails", sender: nil)
+        performSegue(withIdentifier: "ServiceAssistenciaSocialSegue", sender: nil)
     }
     
     @objc func buttonActionOmbroAmigo(sender: UIButton!) {
         setServico = "OMBRO AMIGO"
         print("OMBRO AMIGO")
-        //performSegue(withIdentifier: "summerCampDetails", sender: nil)
+        performSegue(withIdentifier: "ServiceOmbroAmigoSegue", sender: nil)
     }
     
     @objc func buttonActionDepartamentoJuridico(sender: UIButton!) {

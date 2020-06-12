@@ -76,6 +76,13 @@
 		EB37AE2324633114007C1CAB /* imageDiretoriaExecutivaManoel.png in Resources */ = {isa = PBXBuildFile; fileRef = EB37AE0E24633113007C1CAB /* imageDiretoriaExecutivaManoel.png */; };
 		EB37AE2424633114007C1CAB /* imageDiretoriaExecutivaFrancisco@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB37AE0F24633113007C1CAB /* imageDiretoriaExecutivaFrancisco@3x.png */; };
 		EB37AE2524633114007C1CAB /* imageDiretoriaExecutivaFrancisco.png in Resources */ = {isa = PBXBuildFile; fileRef = EB37AE1024633114007C1CAB /* imageDiretoriaExecutivaFrancisco.png */; };
+		EB384A6E249404F20043AEAB /* imageButtonBolsaEmpregoCadastro@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB384A6B249404F20043AEAB /* imageButtonBolsaEmpregoCadastro@3x.png */; };
+		EB384A6F249404F20043AEAB /* imageButtonBolsaEmpregoCadastro@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB384A6C249404F20043AEAB /* imageButtonBolsaEmpregoCadastro@2x.png */; };
+		EB384A70249404F20043AEAB /* imageButtonBolsaEmpregoCadastro.png in Resources */ = {isa = PBXBuildFile; fileRef = EB384A6D249404F20043AEAB /* imageButtonBolsaEmpregoCadastro.png */; };
+		EB384A72249409D20043AEAB /* ServiceBolsaEmpregosCadastroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB384A71249409D20043AEAB /* ServiceBolsaEmpregosCadastroViewController.swift */; };
+		EB384A74249410650043AEAB /* ServiceClubeBeneficiosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB384A73249410650043AEAB /* ServiceClubeBeneficiosViewController.swift */; };
+		EB384A762494119B0043AEAB /* ServiceAssistenciaSocialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB384A752494119B0043AEAB /* ServiceAssistenciaSocialViewController.swift */; };
+		EB384A7924941E420043AEAB /* ServiceOmbroamigoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB384A7824941E420043AEAB /* ServiceOmbroamigoViewController.swift */; };
 		EB45BE04245F6AD100618AF3 /* imageButtonBackMenu@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB45BE01245F6AD000618AF3 /* imageButtonBackMenu@3x.png */; };
 		EB45BE05245F6AD100618AF3 /* imageButtonBackMenu.png in Resources */ = {isa = PBXBuildFile; fileRef = EB45BE02245F6AD100618AF3 /* imageButtonBackMenu.png */; };
 		EB45BE06245F6AD100618AF3 /* imageButtonBackMenu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB45BE03245F6AD100618AF3 /* imageButtonBackMenu@2x.png */; };
@@ -209,6 +216,13 @@
 		EB37AE0E24633113007C1CAB /* imageDiretoriaExecutivaManoel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imageDiretoriaExecutivaManoel.png; sourceTree = "<group>"; };
 		EB37AE0F24633113007C1CAB /* imageDiretoriaExecutivaFrancisco@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imageDiretoriaExecutivaFrancisco@3x.png"; sourceTree = "<group>"; };
 		EB37AE1024633114007C1CAB /* imageDiretoriaExecutivaFrancisco.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imageDiretoriaExecutivaFrancisco.png; sourceTree = "<group>"; };
+		EB384A6B249404F20043AEAB /* imageButtonBolsaEmpregoCadastro@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imageButtonBolsaEmpregoCadastro@3x.png"; sourceTree = "<group>"; };
+		EB384A6C249404F20043AEAB /* imageButtonBolsaEmpregoCadastro@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imageButtonBolsaEmpregoCadastro@2x.png"; sourceTree = "<group>"; };
+		EB384A6D249404F20043AEAB /* imageButtonBolsaEmpregoCadastro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imageButtonBolsaEmpregoCadastro.png; sourceTree = "<group>"; };
+		EB384A71249409D20043AEAB /* ServiceBolsaEmpregosCadastroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceBolsaEmpregosCadastroViewController.swift; sourceTree = "<group>"; };
+		EB384A73249410650043AEAB /* ServiceClubeBeneficiosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceClubeBeneficiosViewController.swift; sourceTree = "<group>"; };
+		EB384A752494119B0043AEAB /* ServiceAssistenciaSocialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceAssistenciaSocialViewController.swift; sourceTree = "<group>"; };
+		EB384A7824941E420043AEAB /* ServiceOmbroamigoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceOmbroamigoViewController.swift; sourceTree = "<group>"; };
 		EB45BE01245F6AD000618AF3 /* imageButtonBackMenu@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imageButtonBackMenu@3x.png"; sourceTree = "<group>"; };
 		EB45BE02245F6AD100618AF3 /* imageButtonBackMenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imageButtonBackMenu.png; sourceTree = "<group>"; };
 		EB45BE03245F6AD100618AF3 /* imageButtonBackMenu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imageButtonBackMenu@2x.png"; sourceTree = "<group>"; };
@@ -389,6 +403,10 @@
 				EB00C5B52492D1D50058332E /* ServiceEscolaViewController.swift */,
 				EB00C5B72492E0B90058332E /* ServiceEscolaDetailViewController.swift */,
 				EB611CB62493C89700767707 /* ServiceBolsaEmpregosViewController.swift */,
+				EB384A71249409D20043AEAB /* ServiceBolsaEmpregosCadastroViewController.swift */,
+				EB384A73249410650043AEAB /* ServiceClubeBeneficiosViewController.swift */,
+				EB384A752494119B0043AEAB /* ServiceAssistenciaSocialViewController.swift */,
+				EB384A7824941E420043AEAB /* ServiceOmbroamigoViewController.swift */,
 				EB53573B245F640700D133C5 /* ShintorespDiretoriaExecutivaViewController.swift */,
 				EB242BC32455289E00A4F49D /* SinthorespViewController.swift */,
 				EB026A16245735B6009A784E /* SummerCampViewController.swift */,
@@ -494,12 +512,12 @@
 		EBE76D742454DD3200984CD8 /* SINTHORESP */ = {
 			isa = PBXGroup;
 			children = (
-				EB535702245F4ABE00D133C5 /* Fonts */,
 				EB026A1224573563009A784E /* ViewControllers */,
 				EBE76DA52454EE6E00984CD8 /* Images */,
+				EB535702245F4ABE00D133C5 /* Fonts */,
 				EBE76D752454DD3200984CD8 /* AppDelegate.swift */,
-				EBE76D772454DD3200984CD8 /* SceneDelegate.swift */,
 				EBE76D7B2454DD3200984CD8 /* Main.storyboard */,
+				EBE76D772454DD3200984CD8 /* SceneDelegate.swift */,
 				EBE76D7E2454DD3800984CD8 /* Assets.xcassets */,
 				EBE76D802454DD3800984CD8 /* LaunchScreen.storyboard */,
 				EBE76D832454DD3800984CD8 /* Info.plist */,
@@ -550,6 +568,9 @@
 				EB8D846424550A2B0027133F /* imageLogoBranco.png */,
 				EB8D846524550A2B0027133F /* imageLogoBranco@2x.png */,
 				EB8D846324550A2B0027133F /* imageLogoBranco@3x.png */,
+				EB384A6D249404F20043AEAB /* imageButtonBolsaEmpregoCadastro.png */,
+				EB384A6C249404F20043AEAB /* imageButtonBolsaEmpregoCadastro@2x.png */,
+				EB384A6B249404F20043AEAB /* imageButtonBolsaEmpregoCadastro@3x.png */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -699,6 +720,7 @@
 				EB242BE52455389D00A4F49D /* imageButtonSummerCamp.png in Resources */,
 				EB242BD02455326700A4F49D /* imageButtonHeadquarters@2x.png in Resources */,
 				EB37AE2124633114007C1CAB /* imageDiretoriaExecutivaGilberto@3x.png in Resources */,
+				EB384A6E249404F20043AEAB /* imageButtonBolsaEmpregoCadastro@3x.png in Resources */,
 				EB242BFF24555A2B00A4F49D /* imageButtonBack@3x.png in Resources */,
 				EB242BE82455389D00A4F49D /* imageButtonService@3x.png in Resources */,
 				EB242BE92455389D00A4F49D /* imageButtonConvention.png in Resources */,
@@ -717,6 +739,7 @@
 				EB242BC924552F3E00A4F49D /* imageButtonSinthoresp@2x.png in Resources */,
 				EB242BCF2455326700A4F49D /* imageButtonHeadquarters.png in Resources */,
 				EB242BE72455389D00A4F49D /* imageButtonSummerCamp@2x.png in Resources */,
+				EB384A6F249404F20043AEAB /* imageButtonBolsaEmpregoCadastro@2x.png in Resources */,
 				EB37AE2224633114007C1CAB /* imageDiretoriaExecutivaEdimundo.png in Resources */,
 				EB37AE1724633114007C1CAB /* imageDiretoriaExecutivaValdir@3x.png in Resources */,
 				EBFBB5B3248ED5B000F85384 /* image_colonia_peruibe_oasis.png in Resources */,
@@ -755,6 +778,7 @@
 				EBFBB5B9248EF2DC00F85384 /* imageButtonNavegacaoCor.png in Resources */,
 				EBD23368248AA1F800376BAE /* imageButtonNavegacao@2x.png in Resources */,
 				EB00C596249170A10058332E /* imageButtonServiceAtivo@2x.png in Resources */,
+				EB384A70249404F20043AEAB /* imageButtonBolsaEmpregoCadastro.png in Resources */,
 				EB242BFE24555A2B00A4F49D /* imageButtonBack@2x.png in Resources */,
 				EB45BE06245F6AD100618AF3 /* imageButtonBackMenu@2x.png in Resources */,
 				EB242BF424553A2B00A4F49D /* imageButtonContact@3x.png in Resources */,
@@ -791,6 +815,8 @@
 				EB026A19245735C8009A784E /* JoinViewController.swift in Sources */,
 				EB53573E245F649D00D133C5 /* SinhorespDiretoriaSinthorespViewController.swift in Sources */,
 				EB026A15245735A0009A784E /* ServiceViewController.swift in Sources */,
+				EB384A762494119B0043AEAB /* ServiceAssistenciaSocialViewController.swift in Sources */,
+				EB384A7924941E420043AEAB /* ServiceOmbroamigoViewController.swift in Sources */,
 				EB00C5A9249286E90058332E /* HeadquarterServiceDetailsViewController.swift in Sources */,
 				EBE76D782454DD3200984CD8 /* SceneDelegate.swift in Sources */,
 				EB00C5B62492D1D50058332E /* ServiceEscolaViewController.swift in Sources */,
@@ -799,6 +825,8 @@
 				EB00C5A72491754F0058332E /* HeadquarterServicesGuaruhosViewController.swift in Sources */,
 				EB026A17245735B6009A784E /* SummerCampViewController.swift in Sources */,
 				EB026A1B245735DC009A784E /* ConventionViewController.swift in Sources */,
+				EB384A74249410650043AEAB /* ServiceClubeBeneficiosViewController.swift in Sources */,
+				EB384A72249409D20043AEAB /* ServiceBolsaEmpregosCadastroViewController.swift in Sources */,
 				EB00C5AB249297F80058332E /* HeadquarterAbrangenciaViewController.swift in Sources */,
 				EB00C5B42492B2F30058332E /* ServiceAtendimentoMedicoViewController.swift in Sources */,
 				EB242BC42455289E00A4F49D /* SinthorespViewController.swift in Sources */,
