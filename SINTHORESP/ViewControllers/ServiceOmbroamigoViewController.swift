@@ -298,5 +298,6 @@ class ServiceOmbroamigoViewController: UIViewController, MFMailComposeViewContro
 
                 // Present the view controller modally.
                 self.present(composeVC, animated: true, completion: nil)
-            }    }
+            }
+    }
 }
