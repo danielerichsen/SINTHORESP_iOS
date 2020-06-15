@@ -65,11 +65,12 @@
                         <segue destination="u19-kd-YSy" kind="show" identifier="ServiceClubeBeneficioSegue" id="PdG-82-Rtt"/>
                         <segue destination="fUL-YF-Z8B" kind="show" identifier="ServiceAssistenciaSocialSegue" id="Gb4-uk-p7m"/>
                         <segue destination="LAG-ea-ECe" kind="show" identifier="ServiceOmbroAmigoSegue" id="v68-td-l4o"/>
+                        <segue destination="LXI-iH-XGh" kind="show" identifier="ServiceJuridicoSegue" id="y5G-Qd-1vf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dIe-ml-O1s" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3497" y="802"/>
+            <point key="canvasLocation" x="-3172" y="802"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -1660,6 +1661,76 @@ Aurindo Antonio de Lima
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RrJ-CI-U3d" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1895" y="1608"/>
+        </scene>
+        <!--Service Juridico View Controller-->
+        <scene sceneID="gns-Tm-J41">
+            <objects>
+                <viewController modalTransitionStyle="crossDissolve" modalPresentationStyle="fullScreen" id="LXI-iH-XGh" customClass="ServiceJuridicoViewController" customModule="SINTHORESP" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lQQ-dl-axJ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" image="imagem_superior.png" id="fnE-P0-Ecf">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="77"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DEPTO JURÍDICO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hXs-Kp-H9D">
+                                <rect key="frame" x="16" y="20" width="218" height="30"/>
+                                <fontDescription key="fontDescription" name="Montserrat-Bold" family="Montserrat" pointSize="24"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="imageBaseLine.png" translatesAutoresizingMaskIntoConstraints="NO" id="10Q-5C-2qJ">
+                                <rect key="frame" x="0.0" y="577" width="375" height="90"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sGQ-9m-coN">
+                                <rect key="frame" x="240" y="590" width="135" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                                <state key="normal" image="imageButtonBackMenu.png"/>
+                                <connections>
+                                    <action selector="showScreenMenu:" destination="Bzw-qR-mZP" eventType="touchUpInside" id="63A-SZ-PRI"/>
+                                    <action selector="showScreenMenu:" destination="Gqi-gU-M7G" eventType="touchUpInside" id="EvG-E5-JVE"/>
+                                    <action selector="showScreenMenu:" destination="u19-kd-YSy" eventType="touchUpInside" id="JBh-OV-xBs"/>
+                                    <action selector="showScreenMenu:" destination="LXI-iH-XGh" eventType="touchUpInside" id="Mnn-YC-3Bk"/>
+                                    <action selector="showScreenMenu:" destination="foF-l9-jlj" eventType="touchUpInside" id="PjT-Ms-FLV"/>
+                                    <action selector="showScreenMenu:" destination="63E-9S-ito" eventType="touchUpInside" id="jXw-R7-HlC"/>
+                                    <action selector="showScreenMenu:" destination="p9O-TB-NLy" eventType="touchUpInside" id="osI-n6-UVS"/>
+                                    <action selector="showScreenMenu:" destination="LAG-ea-ECe" eventType="touchUpInside" id="tTl-ng-mkY"/>
+                                    <action selector="showScreenMenu:" destination="fUL-YF-Z8B" eventType="touchUpInside" id="tk6-xu-Sgt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mA7-iZ-FW1">
+                                <rect key="frame" x="0.0" y="590" width="135" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                                <state key="normal" image="imageButtonBack.png"/>
+                                <connections>
+                                    <action selector="buttonBack:" destination="LAG-ea-ECe" eventType="touchUpInside" id="7l6-xM-lFt"/>
+                                    <action selector="buttonBack:" destination="63E-9S-ito" eventType="touchUpInside" id="AEu-X8-SCr"/>
+                                    <action selector="buttonBack:" destination="p9O-TB-NLy" eventType="touchUpInside" id="C2l-yr-5d8"/>
+                                    <action selector="buttonBack:" destination="fUL-YF-Z8B" eventType="touchUpInside" id="H78-J7-33p"/>
+                                    <action selector="buttonBack:" destination="8Iw-oB-z29" eventType="touchUpInside" id="JEO-nE-hYK"/>
+                                    <action selector="buttonBack:" destination="Gqi-gU-M7G" eventType="touchUpInside" id="WoP-fN-vAq"/>
+                                    <action selector="buttonBack:" destination="JIA-tX-uaU" eventType="touchUpInside" id="X9d-lc-LrT"/>
+                                    <action selector="buttonBack:" destination="foF-l9-jlj" eventType="touchUpInside" id="fu4-3f-5TQ"/>
+                                    <action selector="buttonBack:" destination="LXI-iH-XGh" eventType="touchUpInside" id="i1G-qb-8l3"/>
+                                    <action selector="buttonBack:" destination="u19-kd-YSy" eventType="touchUpInside" id="zjl-Ls-8Hp"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="hXs-Kp-H9D" firstAttribute="top" secondItem="DXe-r6-xe8" secondAttribute="top" constant="20" id="EgA-wR-SAA"/>
+                            <constraint firstItem="hXs-Kp-H9D" firstAttribute="leading" secondItem="DXe-r6-xe8" secondAttribute="leading" constant="16" id="qiB-xB-OdQ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="DXe-r6-xe8"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="cIU-pF-bPg"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XqM-LQ-MqE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1238" y="1605"/>
         </scene>
         <!--Service Escola Detail View Controller-->
         <scene sceneID="8cs-9c-egm">

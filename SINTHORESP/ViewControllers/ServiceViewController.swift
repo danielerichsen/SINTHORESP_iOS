@@ -267,7 +267,7 @@ class ServiceViewController: UIViewController {
     @objc func buttonActionDepartamentoJuridico(sender: UIButton!) {
         setServico = "DEPARTAMENTO JURÍDICO"
         print("DEPARTAMENTO JURÍDICO")
-        //performSegue(withIdentifier: "summerCampDetails", sender: nil)
+        performSegue(withIdentifier: "ServiceJuridicoSegue", sender: nil)
     }
     
     

@@ -55,7 +55,7 @@ class ServiceBolsaEmpregosViewController: UIViewController, MFMailComposeViewCon
         }
         
         
-        scrollView.backgroundColor = .red
+//        scrollView.backgroundColor = .red
         let textView = UITextView()
             
         // iPhone 8
