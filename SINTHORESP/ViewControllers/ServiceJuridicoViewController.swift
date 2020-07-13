@@ -91,7 +91,7 @@ class ServiceJuridicoViewController: UIViewController, MFMailComposeViewControll
         let colorSmallFont = UIColor(red: 109.0/255.0, green: 109.0/255.0, blue: 109.0/255.0, alpha: 1.0)
     
         textoSetorIniciaisTrabalhistaTitulo = "SETOR DE INICIAIS TRABALHISTA"
-        textoSetorIniciaisTrabalhistaEndereco = "Av. Cásper Líbero, 502 – 1º andar"
+        textoSetorIniciaisTrabalhistaEndereco = "Av. Cásper Líbero, 502 – 1º and."
         textoSetorIniciaisTrabalhistaContatos = "Contato: 2189-7300"
         textoSetorIniciaisTrabalhistaEmail = "trabalhista.casper@sinthoresp.org.br"
         
@@ -212,7 +212,7 @@ class ServiceJuridicoViewController: UIViewController, MFMailComposeViewControll
         textoSetorCivelPrevidenciarioPenalTitulo = "SETOR CÍVEL, PREVIDENCIÁRIO E PENAL"
         textoSetorCivelPrevidenciarioPenalEndereco = "Av. Cásper Líbero, 502 – 2º and."
         textoSetorCivelPrevidenciarioPenalContato = "Contato: 2189-7300"
-        textoSetorCivelPrevidenciarioPenalEmail = "Email: civel@sinthoresp.org.br"
+        textoSetorCivelPrevidenciarioPenalEmail = "civel@sinthoresp.org.br"
         
         let textoSetorCivelPrevidenciarioPenal = "\n\(textoSetorCivelPrevidenciarioPenalTitulo!)\n\(textoSetorCivelPrevidenciarioPenalEndereco!)\n\n\(textoSetorCivelPrevidenciarioPenalContato!)\n\(textoSetorCivelPrevidenciarioPenalEmail!)"
         let attrtextoSetorCivelPrevidenciarioPenal = NSMutableAttributedString (string: textoSetorCivelPrevidenciarioPenal)
@@ -377,14 +377,6 @@ class ServiceJuridicoViewController: UIViewController, MFMailComposeViewControll
         buttonSetorContribuicoesTelefonar.contentHorizontalAlignment = UIControl.ContentHorizontalAlignment.center
         buttonSetorContribuicoesTelefonar.addTarget(self, action: #selector(buttonActionSetorContribuicoesTelefonar), for: .touchUpInside)
         
-        // >>>> E-MAIL CIVIL PREVIDENCIARIO PENAL<<<<
-//        let buttonSetorContribuicoesEmail = UIButton(type: UIButton.ButtonType.custom)
-//        buttonSetorContribuicoesEmail.setBackgroundImage(imageBackgroundButtonSetorInciaisTrabalhistasEmail, for: .normal)
-//        buttonSetorContribuicoesEmail.setTitle("E-MAIL", for: .normal)
-//        buttonSetorContribuicoesEmail.setTitleColor(UIColor(red: 1, green: 1, blue: 1, alpha: 1.0), for: .normal)
-//        buttonSetorContribuicoesEmail.titleLabel?.font = UIFont(name: "Montserrat-Bold", size: 12)
-//        buttonSetorContribuicoesEmail.contentHorizontalAlignment = UIControl.ContentHorizontalAlignment.center
-//        buttonSetorContribuicoesEmail.addTarget(self, action: #selector(buttonActionSetorContribuicoesEmail), for: .touchUpInside)
         
         if screenHeight == 667.0 {
             let startControllerButton_2 :Double = 614.0
